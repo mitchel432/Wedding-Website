@@ -1,0 +1,21 @@
+uuid: a5ad1123-f456-4eff-89ef-551d74918efd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_date
+    - paragraphs.paragraphs_type.shenanigans
+  module:
+    - text
+id: paragraph.shenanigans.field_date
+field_name: field_date
+entity_type: paragraph
+bundle: shenanigans
+label: Date
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

@@ -1,0 +1,30 @@
+.wedding-header {
+    background: gray;
+    .wedding-logo img {
+        width: 100px;
+    }
+
+    #block-wedding-theme-main-menu {
+        .menu {
+            display: flex;
+            margin: 0;
+            justify-content: center;
+            height: 100%;
+            align-items: center; 
+
+            .menu-item {
+                margin: 5px;
+                padding: 5px 10px;
+                
+                a {
+                    color: black;
+                    text-decoration: none;
+                }
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

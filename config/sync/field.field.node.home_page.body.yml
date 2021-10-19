@@ -1,0 +1,23 @@
+uuid: d288f494-8f60-4221-9797-65f60296acce
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.home_page
+  module:
+    - text
+id: node.home_page.body
+field_name: body
+entity_type: node
+bundle: home_page
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

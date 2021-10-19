@@ -1,0 +1,15 @@
+uuid: 129371ab-8072-4be9-8c00-dd5d86320b95
+langcode: en
+status: true
+dependencies: {  }
+name: background
+label: background
+effects:
+  7e39e851-0a98-4d1d-8f0b-b18eea284459:
+    uuid: 7e39e851-0a98-4d1d-8f0b-b18eea284459
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1920
+      height: 500
+      anchor: center-center

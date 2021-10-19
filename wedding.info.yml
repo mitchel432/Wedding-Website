@@ -1,0 +1,9 @@
+name: Wedding Profile
+type: profile
+description: 'Build out your own Wedding Site'
+core_version_requirement: '^8.8 || ^9'
+distribution:
+  name: Wedding Profile
+themes:
+  - bartik
+  - seven

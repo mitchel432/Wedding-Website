@@ -1,0 +1,22 @@
+uuid: 61b774cb-ffc6-4ef8-8d86-8a271e96957e
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - wedding_theme
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: wedding_theme_help
+theme: wedding_theme
+region: content
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

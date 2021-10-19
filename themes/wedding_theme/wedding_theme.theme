@@ -1,0 +1,10 @@
+<?php
+
+
+use Drupal\Core\Entity\EntityTypeManagerInterface;
+use Drupal\node\NodeStorageInterface;
+
+function wedding_theme_preprocess_node(&$variables) {
+
+    // dd($variables);
+}

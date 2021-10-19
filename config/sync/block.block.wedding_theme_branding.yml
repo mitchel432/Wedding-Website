@@ -1,0 +1,25 @@
+uuid: 570708a9-d140-4397-8e42-c3651eef300c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - wedding_theme
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: wedding_theme_branding
+theme: wedding_theme
+region: header
+weight: -4
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

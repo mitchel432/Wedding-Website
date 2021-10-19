@@ -1,0 +1,20 @@
+uuid: 5ce7816b-b8c6-4891-a27d-0c759af1162a
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - node
+id: node.field_carousel_
+field_name: field_carousel_
+entity_type: node
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
