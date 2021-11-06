@@ -1,12 +1,145 @@
 .node--type-home-page {
+    .section {
+        background-color: #f5edea;
+    }
     .section-1 {
-        padding-bottom: 46vw;
-        .field--name-field-main-image img {
+        // header height + half the height of content in section 1
+        background-color: transparent;
+        padding: calc(50vh - 295px) 0;
+        text-align:  center;
+        font-family: Praline;
+        position: relative;
+        .field--name-body {
+            font-size: 40px;
+            font-weight: bold;
+            line-height: 1.4;
+            @media (min-width: 800px) {
+                font-size: 65px;
+            }
+
+            strong {
+                font-size: 65px;
+                @media (min-width: 800px) {
+                    font-size: 95px;
+                }
+            }
+
+            p {
+                padding: 0;
+                margin: 0;
+            }
+        }
+        
+        .section-1-footer {
             position: absolute;
-            top: 0;
+            bottom: 15px;
             left: 0;
             right: 0;
-            
+            font-size: 18px;
+        }
+    }
+
+    .section-2 {
+        .geolocation-map-wrapper {
+            padding: 40px;
+        }
+    }
+
+    .section-3 {
+        padding: 40px 10%;
+        text-align: center;
+        color: #757e60;
+        font-size: 30px;
+
+        @media (min-width: 1200px) {
+            padding: 40px 20%;
+        }
+        
+
+        .field--name-field-map-info {
+            color: #757e60;
+
+            strong {
+                font-family: Praline;
+                font-size: 60px;
+                font-weight: normal;
+                @media (min-width: 800px) {
+                    font-size: 80px;
+                }
+            }
+        }
+    }
+
+    .section-4 {
+        padding: 40px;
+    }
+
+    .section-5 {
+        padding: 40px 15%;
+        text-align: center;
+        color: #757e60;
+        font-size: 20px;
+
+        @media (min-width: 800px) {
+            font-size: 30px;
+        }
+
+        @media (min-width: 1200px) {
+            padding: 40px 25%;
+        }
+
+        .field__label {
+            font-family: Praline;
+            font-size: 60px;
+            font-weight: normal;
+            padding-bottom: 60px;
+            @media (min-width: 800px) {
+                font-size: 80px;
+            }
+        }
+
+        .field__item {
+            .paragraph {
+                position: relative;
+    
+                &:after {
+                    content: '';
+                    display: block;
+                    width: 3px;
+                    height: 150px;
+                    background-color: #e3a85d;
+                    margin: 30px auto;
+                    
+                }
+
+                .field--name-field-date {
+                    text-transform: uppercase;
+                    padding: 10px;
+                    font-size: 25px;
+                    @media (min-width: 800px) {
+                        font-size: 35px;
+                    }
+                }
+
+                .field--name-field-shenanigans-title {
+                    font-family: Praline;
+                    font-size: 40px;
+                    font-weight: normal;
+                    padding: 10px;
+                    @media (min-width: 800px) {
+                        font-size: 60px;
+                    }
+                }
+
+                p {
+                    padding: 0;
+                    margin: 0;
+                }
+            }
+
+            &:last-child .paragraph:after {
+                content: none;
+            }
         }
     }
 }

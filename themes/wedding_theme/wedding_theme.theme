@@ -4,7 +4,10 @@
 use Drupal\Core\Entity\EntityTypeManagerInterface;
 use Drupal\node\NodeStorageInterface;
 
-function wedding_theme_preprocess_node(&$variables) {
 
-    // dd($variables);
+function wedding_theme_page_attachments_alter(&$attachments) {
+    if (\Drupal::service('path.matcher')->isFrontPage()) {
+        $attachments['#attached']['library'][] = 'wedding_theme/slick';
+        $attachments['#attached']['library'][] = 'wedding_theme/home-page';
+    }
 }

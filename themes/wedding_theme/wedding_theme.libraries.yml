@@ -7,3 +7,18 @@ global-styling:
       dist/css/homepage-view.css: {}
       dist/css/header.css: {}
       //fonts.googleapis.com/css2?family=Poppins:wght@200;500;700&display=swap: {}
+home-page:
+  js:
+    src/js/home-page.js: {}
+slick:
+  version: 1.8.0
+  header: true
+  js:
+    /libraries/slick-carousel/slick/slick.min.js: {}
+  css:
+    theme:
+      /libraries/slick-carousel/slick/slick.css: {}
+      /libraries/slick-carousel/slick/slick-theme.css: {}
+  dependencies:
+    - core/drupal
+    - core/jquery

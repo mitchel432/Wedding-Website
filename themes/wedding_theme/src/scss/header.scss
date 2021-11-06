@@ -1,5 +1,5 @@
 .wedding-header {
-    background: gray;
+    // background: gray;
     .wedding-logo img {
         width: 100px;
     }
@@ -11,13 +11,14 @@
             justify-content: center;
             height: 100%;
             align-items: center; 
+            font-size: 20px;
 
             .menu-item {
                 margin: 5px;
                 padding: 5px 10px;
                 
                 a {
-                    color: black;
+                    color: #f9f3ee;
                     text-decoration: none;
                 }
 

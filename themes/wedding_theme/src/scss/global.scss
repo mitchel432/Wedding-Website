@@ -1,3 +1,16 @@
-body {
+@font-face {
+    src:url(../../src/fonts/Praline-Regular.otf) format("opentype");;
+    font-family: Praline;
+}
+
+@font-face {
+    src:url(../../src/fonts/PralineSans-Regular.otf) format("opentype");;
+    font-family: PralineSans;
+}
+
+body.resume-theme {
     font-size: 15px;
+    background: #f5edea url(/profiles/wedding/themes/wedding_theme/src/images/background.png) top center no-repeat;
+    font-family: PralineSans;
+    color: #f9f3ee;
 }

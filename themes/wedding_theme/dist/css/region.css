@@ -11,5 +11,8 @@
     right: 0;
     bottom: 0; }
 
+.path-frontpage.page-node-type-home-page.resume-theme.user-logged-in .wedding-header {
+  padding: 80px 15px 15px 15px; }
+
 .path-frontpage.page-node-type-home-page.resume-theme .page-title {
   display: none; }
