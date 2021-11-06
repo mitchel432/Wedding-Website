@@ -1,18 +1,15 @@
-.path-frontpage.page-node-type-home-page.resume-theme .wedding-header {
+.wedding-header {
   padding: 15px;
   position: relative; }
-  .path-frontpage.page-node-type-home-page.resume-theme .wedding-header .region-header #block-wedding-theme-branding {
+  .wedding-header .region-header #block-wedding-theme-branding {
     float: left;
     z-index: 100; }
-  .path-frontpage.page-node-type-home-page.resume-theme .wedding-header .region-header #block-wedding-theme-main-menu {
+  .wedding-header .region-header #block-wedding-theme-main-menu {
     position: absolute;
-    top: 0;
+    top: 0px;
     left: 0;
     right: 0;
     bottom: 0; }
-
-.path-frontpage.page-node-type-home-page.resume-theme.user-logged-in .wedding-header {
-  padding: 80px 15px 15px 15px; }
-
-.path-frontpage.page-node-type-home-page.resume-theme .page-title {
-  display: none; }
+    @media (min-width: 800px) {
+      .wedding-header .region-header #block-wedding-theme-main-menu {
+        top: 50px; } }

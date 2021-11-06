@@ -1,0 +1,53 @@
+h1.page-title {
+  background-color: transparent;
+  text-align: center;
+  font-family: Praline;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 65px;
+  font-weight: bold;
+  padding: 0 50px; }
+  @media (min-width: 800px) {
+    h1.page-title {
+      height: calc(30vh);
+      font-size: 95px;
+      padding: 0 250px; } }
+
+.block-system-main-block {
+  width: auto;
+  background-color: #f5edea;
+  color: #757e60;
+  font-size: 20px;
+  padding: 60px; }
+  @media (min-width: 800px) {
+    .block-system-main-block {
+      font-size: 30px; } }
+  .block-system-main-block strong {
+    font-size: 30px; }
+    @media (min-width: 800px) {
+      .block-system-main-block strong {
+        font-size: 40px; } }
+  .block-system-main-block .wp-block-gallery {
+    justify-content: center; }
+  .block-system-main-block .shenanigans-text {
+    margin: 0 15%; }
+    @media (min-width: 800px) {
+      .block-system-main-block .shenanigans-text {
+        margin: 0 25%; } }
+    .block-system-main-block .shenanigans-text .body-time {
+      text-transform: uppercase; }
+    .block-system-main-block .shenanigans-text .body-button a {
+      padding: 5px 15px;
+      background-color: #757e60;
+      color: white;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 22px;
+      font-family: Praline; }
+    .block-system-main-block .shenanigans-text .body-small {
+      font-size: 15px; }
+      @media (min-width: 800px) {
+        .block-system-main-block .shenanigans-text .body-small {
+          font-size: 20px; } }

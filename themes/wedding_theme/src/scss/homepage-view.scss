@@ -1,4 +1,7 @@
-.node--type-home-page {
+.page-node-type-home-page {
+    .page-title {
+        display: none;
+    }
     .section {
         background-color: #f5edea;
     }
@@ -13,6 +16,7 @@
             font-size: 40px;
             font-weight: bold;
             line-height: 1.4;
+            padding: 30px;
             @media (min-width: 800px) {
                 font-size: 65px;
             }

@@ -1,27 +1,22 @@
-.path-frontpage.page-node-type-home-page.resume-theme {
-    .wedding-header {
-        padding: 15px;
-        position: relative;
+.wedding-header {
+    padding: 15px;
+    position: relative;
 
-        .region-header {
-            #block-wedding-theme-branding {
-                float: left;
-                z-index: 100;
-            }
+    .region-header {
+        #block-wedding-theme-branding {
+            float: left;
+            z-index: 100;
+        }
 
-            #block-wedding-theme-main-menu {
-                position: absolute;
-                top: 0;
-                left: 0;
-                right: 0;
-                bottom: 0;
+        #block-wedding-theme-main-menu {
+            position: absolute;
+            top: 0px;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            @media (min-width: 800px) {
+                top: 50px;
             }
         }
-    }
-    &.user-logged-in .wedding-header {
-        padding: 80px 15px 15px 15px;
-    }
-    .page-title {
-        display: none;
     }
 }
