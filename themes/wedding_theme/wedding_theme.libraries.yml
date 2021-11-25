@@ -2,11 +2,7 @@ global-styling:
   version: VERSION
   css:
     base:
-      dist/css/global.css: {}
-      dist/css/region.css: {}
-      dist/css/homepage-view.css: {}
-      dist/css/header.css: {}
-      dist/css/main-content.css: {}
+      dist/css/styles.css: {}
       //fonts.googleapis.com/css2?family=Poppins:wght@200;500;700&display=swap: {}
   js:
     src/js/mobile-menu.js: {}
