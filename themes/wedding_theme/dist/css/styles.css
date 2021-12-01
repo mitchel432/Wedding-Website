@@ -6,18 +6,18 @@
   src: url(../../src/fonts/PralineSans-Regular.otf) format("opentype");
   font-family: PralineSans; }
 
-.webform-submission-form .webform-section h2 {
+.webform-submission-form .webform-section h2, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-body strong, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item:first-child a .hotel-title {
   font-size: 40px;
   font-family: Praline; }
   @media (min-width: 800px) {
-    .webform-submission-form .webform-section h2 {
+    .webform-submission-form .webform-section h2, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-body strong, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item:first-child a .hotel-title {
       font-size: 50px; } }
 
-.path-node:not(.path-frontpage) .block-system-main-block strong {
+.path-node:not(.path-frontpage) .block-system-main-block strong, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item a .hotel-title {
   font-size: 30px;
   font-family: Praline; }
   @media (min-width: 800px) {
-    .path-node:not(.path-frontpage) .block-system-main-block strong {
+    .path-node:not(.path-frontpage) .block-system-main-block strong, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item a .hotel-title {
       font-size: 40px; } }
 
 .path-node:not(.path-frontpage) .block-system-main-block .body-button a, .path-node:not(.path-frontpage) .block-system-main-block .button {
@@ -27,25 +27,25 @@
     .path-node:not(.path-frontpage) .block-system-main-block .body-button a, .path-node:not(.path-frontpage) .block-system-main-block .button {
       font-size: 20px; } }
 
-.path-node:not(.path-frontpage) .block-system-main-block .body-button a.webform-button--submit, .path-node:not(.path-frontpage) .block-system-main-block .button.webform-button--submit, .webform-submission-form .webform-section label, .webform-submission-form .webform-section legend, .webform-submission-form .webform-button--submit {
+.path-node:not(.path-frontpage) .block-system-main-block .body-button a.webform-button--submit, .path-node:not(.path-frontpage) .block-system-main-block .button.webform-button--submit, .webform-submission-form .webform-section label, .webform-submission-form .webform-section legend, .webform-submission-form .webform-button--submit, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-body {
   font-size: 25px;
   font-family: PralineSans; }
   @media (min-width: 800px) {
-    .path-node:not(.path-frontpage) .block-system-main-block .body-button a.webform-button--submit, .path-node:not(.path-frontpage) .block-system-main-block .button.webform-button--submit, .webform-submission-form .webform-section label, .webform-submission-form .webform-section legend, .webform-submission-form .webform-button--submit {
+    .path-node:not(.path-frontpage) .block-system-main-block .body-button a.webform-button--submit, .path-node:not(.path-frontpage) .block-system-main-block .button.webform-button--submit, .webform-submission-form .webform-section label, .webform-submission-form .webform-section legend, .webform-submission-form .webform-button--submit, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-body {
       font-size: 35px; } }
 
-.path-node:not(.path-frontpage) .block-system-main-block {
+.path-node:not(.path-frontpage) .block-system-main-block, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-split-text-1, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-split-text-2, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item:first-child a .hotel-link-text {
   font-size: 15px;
   font-family: PralineSans; }
   @media (min-width: 800px) {
-    .path-node:not(.path-frontpage) .block-system-main-block {
+    .path-node:not(.path-frontpage) .block-system-main-block, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-split-text-1, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-split-text-2, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item:first-child a .hotel-link-text {
       font-size: 25px; } }
 
-.webform-submission-form .webform-section .webform-type-radios .fieldset-wrapper input[type=radio] + label, .webform-submission-form .webform-section .fieldset-wrapper, .shenanigans-text .body-small {
+.webform-submission-form .webform-section .webform-type-radios .fieldset-wrapper input[type=radio] + label, .webform-submission-form .webform-section .fieldset-wrapper, .shenanigans-text .body-small, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item a .hotel-link-text {
   font-size: 15px;
   font-family: PralineSans; }
   @media (min-width: 800px) {
-    .webform-submission-form .webform-section .webform-type-radios .fieldset-wrapper input[type=radio] + label, .webform-submission-form .webform-section .fieldset-wrapper, .shenanigans-text .body-small {
+    .webform-submission-form .webform-section .webform-type-radios .fieldset-wrapper input[type=radio] + label, .webform-submission-form .webform-section .fieldset-wrapper, .shenanigans-text .body-small, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item a .hotel-link-text {
       font-size: 20px; } }
 
 .path-node:not(.path-frontpage) .block-system-main-block article {
@@ -57,10 +57,10 @@
     .path-node:not(.path-frontpage) .block-system-main-block article {
       margin: 0 25%; } }
 
-.path-node:not(.path-frontpage) .block-system-main-block article.node--type-our-story {
+.path-node:not(.path-frontpage) .block-system-main-block article.node--type-our-story, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp {
   margin: 0 5%; }
   @media (min-width: 800px) {
-    .path-node:not(.path-frontpage) .block-system-main-block article.node--type-our-story {
+    .path-node:not(.path-frontpage) .block-system-main-block article.node--type-our-story, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp {
       margin: 0 5%; } }
 
 body.wedding-theme {
@@ -363,3 +363,86 @@ h1.page-title {
 
 .wp-block-gallery {
   justify-content: center; }
+
+.path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-body {
+  margin: 0 15%; }
+  @media (min-width: 800px) {
+    .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-body {
+      margin: 0 20%; } }
+
+.path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-split-text-1, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-split-text-2 {
+  float: left;
+  width: 35%;
+  position: relative;
+  margin-top: 25px; }
+
+.path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-split-text-1 {
+  padding: 0 0 0 5%;
+  text-align: right; }
+  @media (min-width: 800px) {
+    .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-split-text-1 {
+      padding: 0 5% 0 10%; } }
+
+.path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-split-text-2 {
+  padding: 0 5% 0 0; }
+  @media (min-width: 800px) {
+    .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-split-text-2 {
+      padding: 0 10% 0 5%; } }
+
+.path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-split-text-1::after {
+  content: '';
+  background: #e3a85d;
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 3px;
+  top: 0; }
+
+.path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels {
+  float: left;
+  clear: left;
+  margin: 0 5%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  @media (min-width: 800px) {
+    .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels {
+      margin: 0 10%; } }
+  .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item {
+    width: 33%;
+    text-align: center; }
+    .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item a {
+      color: #757e60;
+      text-decoration: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 50px 0; }
+      .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item a .hotel-title {
+        padding-bottom: 20px; }
+      .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item a .hotel-link-text {
+        width: auto;
+        padding: 5px 10px;
+        border-radius: 10px;
+        border: 3px solid #757e60; }
+      .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item a:hover .hotel-link-text {
+        background-color: #757e60;
+        color: white; }
+    .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item:first-child {
+      width: 50%;
+      margin: 0 25%; }
+      .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item:first-child a .hotel-title {
+        font-weight: bold;
+        padding-bottom: 30px; }
+      .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item:first-child a .hotel-link-text {
+        padding: 10px 20px; }
+    .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item .paragraph--type--hotels {
+      height: 100%; }
+      .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item .paragraph--type--hotels .heart-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%; }
+        .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item .paragraph--type--hotels .heart-image img {
+          width: 75px; }
