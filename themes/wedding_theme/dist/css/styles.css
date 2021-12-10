@@ -13,11 +13,11 @@
     .webform-submission-form .webform-section h2, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-body strong, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item:first-child a .hotel-title {
       font-size: 50px; } }
 
-.path-node:not(.path-frontpage) .block-system-main-block strong, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item a .hotel-title {
+.path-node:not(.path-frontpage) .block-system-main-block strong, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item a .hotel-title, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .hotel-or-camp .hotel-or-camp__wrapper {
   font-size: 30px;
   font-family: Praline; }
   @media (min-width: 800px) {
-    .path-node:not(.path-frontpage) .block-system-main-block strong, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item a .hotel-title {
+    .path-node:not(.path-frontpage) .block-system-main-block strong, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item a .hotel-title, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .hotel-or-camp .hotel-or-camp__wrapper {
       font-size: 40px; } }
 
 .path-node:not(.path-frontpage) .block-system-main-block .body-button a, .path-node:not(.path-frontpage) .block-system-main-block .button {
@@ -446,3 +446,35 @@ h1.page-title {
         height: 100%; }
         .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item .paragraph--type--hotels .heart-image img {
           width: 75px; }
+
+.path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .hotel-or-camp {
+  display: flex;
+  justify-content: center; }
+  .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .hotel-or-camp .hotel-or-camp__wrapper {
+    width: 18%;
+    position: relative;
+    margin-top: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .hotel-or-camp .hotel-or-camp__wrapper img {
+      width: 75px; }
+  .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .hotel-or-camp .hotel-or-camp__hotel {
+    padding: 0 0 0 5%; }
+    @media (min-width: 800px) {
+      .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .hotel-or-camp .hotel-or-camp__hotel {
+        padding: 0 5% 0 10%; } }
+  .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .hotel-or-camp .hotel-or-camp__tent {
+    padding: 0 5% 0 0; }
+    @media (min-width: 800px) {
+      .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .hotel-or-camp .hotel-or-camp__tent {
+        padding: 0 10% 0 5%; } }
+  .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .hotel-or-camp .hotel-or-camp__hotel::after {
+    content: '';
+    background: #e3a85d;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 3px;
+    top: 0; }

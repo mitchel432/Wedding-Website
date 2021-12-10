@@ -114,6 +114,49 @@
                     }
                 }
             }
+
+        }
+    }
+    
+    .hotel-or-camp {
+        display: flex;
+        justify-content: center;
+
+        .hotel-or-camp__wrapper {
+            width: 18%;
+            position: relative;
+            margin-top: 25px;
+            @extend %praline-medium;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            img {
+                width: 75px;
+            }
+        }
+
+        .hotel-or-camp__hotel {
+            padding: 0 0 0 5%;
+            @media (min-width: 800px) {
+                padding: 0 5% 0 10%;
+            }
+        }
+        .hotel-or-camp__tent {
+            padding: 0 5% 0 0;
+            @media (min-width: 800px) {
+                padding: 0 10% 0 5%;
+            }
+        }
+        .hotel-or-camp__hotel::after {
+            content: '';
+            background: #e3a85d;
+            position: absolute;
+            right: 0;
+            height: 100%;
+            width: 3px;
+            top: 0;
         }
     }
 }
