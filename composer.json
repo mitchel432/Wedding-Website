@@ -1,0 +1,77 @@
+{
+    "name": "mitchel/wedding_website",
+    "description": "Wedding WEbsite",
+    "type": "drupal-profile",
+    "authors": [
+      {
+        "name": "Mitchel",
+        "email": "mitchelh432@gmail.com"
+      }
+    ],
+    "repositories": [
+      {
+        "type": "composer",
+        "url": "https://packages.drupal.org/8"
+      },
+      {
+        "type": "composer",
+        "url": "https://asset-packagist.org"
+      }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "composer/installers": "^1.9",
+        "drupal/address": "^1.9",
+        "drupal/admin_toolbar": "^3.0",
+        "drupal/adminimal_theme": "^1.6",
+        "drupal/better_exposed_filters": "^5.0@beta",
+        "drupal/core-composer-scaffold": "^9.3",
+        "drupal/core-project-message": "^9.3",
+        "drupal/core-recommended": "^9.3",
+        "drupal/csv_importer": "^1.11",
+        "drupal/ctools": "^3.7",
+        "drupal/devel": "^4.0",
+        "drupal/field_group": "^3.2",
+        "drupal/geolocation": "^3.7",
+        "drupal/gutenberg": "^2.2",
+        "drupal/insert": "^2.0@beta",
+        "drupal/jquery_ui": "^1.4",
+        "drupal/jquery_ui_datepicker": "^1.1",
+        "drupal/jquery_ui_slider": "^1.1",
+        "drupal/jquery_ui_touch_punch": "^1.0",
+        "drupal/paragraphs": "^1.12",
+        "drupal/pathauto": "^1.8",
+        "drupal/responsive_menu": "4.4",
+        "drupal/responsive_menus": "^1.0@alpha",
+        "drupal/slick": "2.4",
+        "drupal/superfish": "^1.4",
+        "drupal/token": "^1.9",
+        "drupal/twig_tweak": "^3.1",
+        "drupal/webform": "^6.1",
+        "drush/drush": "^10",
+        "furf/jquery-ui-touch-punch": "dev-master",
+        "npm-asset/jquery-ui-touch-punch": "^0.2.3",
+        "npm-asset/slick-carousel": "^1.8",
+        "oomphinc/composer-installers-extender": "^2.0"
+    },
+    "extra": {
+      "enable-patching": true,
+      "composer-exit-on-patch-failure": false,
+      "installer-types": [
+        "drupal-library", "npm-asset", "bower-asset"
+      ],
+      "installer-paths": {
+        "web/core/assets/vendor/ckeditor/plugins/link": ["municodepdx/ckeditor-link"],
+        "web/libraries/{$name}/": [
+          "type:drupal-library",
+          "enyo/dropzone",
+          "vendor:npm-asset",
+          "vendor:bower-asset",
+          "type:npm-asset",
+          "type:bower-asset"
+        ]
+      }
+    }
+  }
+  
