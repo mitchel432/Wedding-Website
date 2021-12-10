@@ -10,10 +10,12 @@ h1.page-title {
     font-size: 65px;
     font-weight: bold;
     padding: 0 50px;
+    height: 500px;
     @media (min-width: 800px) {
         height: calc(30vh);
         font-size: 95px;
-        padding: 0 250px;
+        padding: 5% 250px;
+        margin: 0;
     }
 
 }

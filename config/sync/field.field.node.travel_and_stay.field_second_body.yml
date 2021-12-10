@@ -1,0 +1,23 @@
+uuid: 71a4691e-97b5-4770-8375-af0d9739347e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_second_body
+    - node.type.travel_and_stay
+  module:
+    - text
+id: node.travel_and_stay.field_second_body
+field_name: field_second_body
+entity_type: node
+bundle: travel_and_stay
+label: 'Second Body'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

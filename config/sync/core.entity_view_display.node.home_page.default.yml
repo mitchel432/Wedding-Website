@@ -24,30 +24,21 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 101
+    weight: 1
     settings: {  }
     third_party_settings: {  }
     region: content
   field_carousel_:
     type: entity_reference_entity_view
-    weight: 106
+    weight: 4
     label: hidden
     settings:
       view_mode: carousel_
       link: false
     third_party_settings: {  }
     region: content
-  field_main_image:
-    type: entity_reference_entity_view
-    weight: 102
-    label: hidden
-    settings:
-      view_mode: background
-      link: false
-    third_party_settings: {  }
-    region: content
   field_map:
-    weight: 105
+    weight: 3
     label: hidden
     settings:
       set_marker: true
@@ -365,7 +356,7 @@ content:
     type: geolocation_map
     region: content
   field_map_info:
-    weight: 103
+    weight: 2
     label: hidden
     settings: {  }
     third_party_settings: {  }
@@ -373,16 +364,17 @@ content:
     region: content
   field_shenanigans:
     type: entity_reference_revisions_entity_view
-    weight: 107
-    label: hidden
+    weight: 5
+    label: above
     settings:
       view_mode: default
       link: ''
     third_party_settings: {  }
     region: content
   links:
-    weight: 100
+    weight: 0
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  field_main_image: true

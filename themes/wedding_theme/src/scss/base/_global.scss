@@ -1,6 +1,21 @@
 body.wedding-theme {
     font-size: 15px;
-    background: #f5edea url(/profiles/wedding/themes/wedding_theme/src/images/background.png) top center no-repeat;
+    // background: #f5edea url(/profiles/wedding/themes/wedding_theme/src/images/background5.png) top center no-repeat;
     font-family: PralineSans;
     color: #f9f3ee;
+    // background-size: contain;
+}
+
+.section-1:before, h1.page-title:before {
+    content: '';
+    position: absolute;
+    top: -145px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #f5edea url(/profiles/wedding/themes/wedding_theme/src/images/background.jpg) top center no-repeat;
+    z-index: -1;
+    background-size: cover;
+
+
 }

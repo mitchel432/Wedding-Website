@@ -1,4 +1,12 @@
 // Praline - Title, large text
+%praline-extra-large {
+    font-size: 55px;
+    font-family: Praline;
+    @media (min-width: 800px) {
+        font-size: 80px;
+    }
+}
+
 %praline-large {
     font-size: 40px;
     font-family: Praline;
@@ -16,7 +24,7 @@
 }
 
 %praline-small {
-    font-size: 15px;
+    font-size: 18px;
     font-family: Praline;
     @media (min-width: 800px) {
         font-size: 20px;
@@ -33,7 +41,7 @@
 }
 
 %pralineSans-medium {
-    font-size: 15px;
+    font-size: 20px;
     font-family: PralineSans;
     @media (min-width: 800px) {
         font-size: 25px;
@@ -41,7 +49,7 @@
 }
 
 %pralineSans-small {
-    font-size: 15px;
+    font-size: 18px;
     font-family: PralineSans;
     @media (min-width: 800px) {
         font-size: 20px;

@@ -12,21 +12,31 @@
     .section-1 {
         // header height + half the height of content in section 1
         background-color: transparent;
-        padding: calc(50vh - 295px) 0;
+        padding: calc(50vh - 245px) 0;
         text-align:  center;
         font-family: Praline;
         position: relative;
+        @media (min-width: 800px) {
+            padding: calc(50vh - 295px) 0;
+        }
         .field--name-body {
-            font-size: 40px;
+            font-size: 25px;
             font-weight: bold;
             line-height: 1.4;
             padding: 30px;
+            text-shadow: 0 0 7px black;
+            @media (min-width: 480px) {
+                font-size: 30px;
+            }
             @media (min-width: 800px) {
                 font-size: 65px;
             }
 
             strong {
-                font-size: 65px;
+                font-size: 45px;
+                @media (min-width: 480px) {
+                    font-size: 60px;
+                }
                 @media (min-width: 800px) {
                     font-size: 95px;
                 }
@@ -57,7 +67,7 @@
         padding: 40px 10%;
         text-align: center;
         color: #757e60;
-        font-size: 30px;
+        @extend %pralineSans-medium;
 
         @media (min-width: 1200px) {
             padding: 40px 20%;
@@ -68,42 +78,40 @@
             color: #757e60;
 
             strong {
-                font-family: Praline;
-                font-size: 60px;
+                @extend %praline-extra-large;
                 font-weight: normal;
-                @media (min-width: 800px) {
-                    font-size: 80px;
-                }
             }
         }
     }
 
     .section-4 {
-        padding: 40px;
+        padding: 60px;
+
+        .slick-prev {
+            left: -45px;
+        }
+        .slick-prev:before,
+        .slick-next:before {
+            color: #757e60;
+            font-size: 45px;
+        }
     }
 
     .section-5 {
-        padding: 40px 15%;
+        padding: 40px 5%;
         text-align: center;
         color: #757e60;
-        font-size: 20px;
-
-        @media (min-width: 800px) {
-            font-size: 30px;
-        }
+        @extend %pralineSans-medium;
 
         @media (min-width: 1200px) {
             padding: 40px 25%;
         }
 
         .field__label {
-            font-family: Praline;
-            font-size: 60px;
+            @extend %praline-extra-large;
             font-weight: normal;
             padding-bottom: 60px;
-            @media (min-width: 800px) {
-                font-size: 80px;
-            }
+           
         }
 
         .field__item {
@@ -123,20 +131,13 @@
                 .field--name-field-date {
                     text-transform: uppercase;
                     padding: 10px;
-                    font-size: 25px;
-                    @media (min-width: 800px) {
-                        font-size: 35px;
-                    }
+                    @extend %pralineSans-medium;
                 }
 
                 .field--name-field-shenanigans-title {
-                    font-family: Praline;
-                    font-size: 40px;
                     font-weight: normal;
                     padding: 10px;
-                    @media (min-width: 800px) {
-                        font-size: 60px;
-                    }
+                    @extend %praline-large;
                 }
 
                 p {

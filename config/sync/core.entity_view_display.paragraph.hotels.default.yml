@@ -1,0 +1,50 @@
+uuid: 955dacdd-53b7-4fe7-afb6-4efc8eddb502
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.hotels.field_heart_image
+    - field.field.paragraph.hotels.field_link
+    - field.field.paragraph.hotels.field_link_title
+    - field.field.paragraph.hotels.field_title
+    - paragraphs.paragraphs_type.hotels
+id: paragraph.hotels.default
+targetEntityType: paragraph
+bundle: hotels
+mode: default
+content:
+  field_heart_image:
+    weight: 2
+    label: hidden
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_link:
+    weight: 4
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_link_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_title:
+    weight: 3
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

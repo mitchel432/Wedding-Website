@@ -1,0 +1,23 @@
+uuid: d63889bc-541f-4a49-8eb0-5c7b1011d556
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.rsvp
+  module:
+    - text
+id: node.rsvp.body
+field_name: body
+entity_type: node
+bundle: rsvp
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

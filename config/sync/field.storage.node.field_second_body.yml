@@ -1,0 +1,19 @@
+uuid: 3f425a15-4efb-46bf-b44d-e0d1f4f5b70b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_second_body
+field_name: field_second_body
+entity_type: node
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

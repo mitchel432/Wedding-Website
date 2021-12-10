@@ -25,23 +25,25 @@
                     autoplaySpeed: 2000,
                     slidesToShow: 4,
                     slidesToScroll: 4,
+                    centerMode: true,
+                    variableWidth: true,
                     responsive: [
                         {
-                            breakpoint: 1024,
+                            breakpoint: 1420,
                             settings: {
                                 slidesToShow: 3,
                                 slidesToScroll: 3,
                             }
                         },
                         {
-                            breakpoint: 600,
+                            breakpoint: 1080,
                             settings: {
                                 slidesToShow: 2,
                                 slidesToScroll: 2
                             }
                         },
                         {
-                            breakpoint: 480,
+                            breakpoint: 800,
                             settings: {
                                 slidesToShow: 1,
                                 slidesToScroll: 1
