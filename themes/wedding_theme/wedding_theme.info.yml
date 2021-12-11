@@ -1,6 +1,6 @@
 name: Wedding Theme
 type: theme
-base theme: classy
+base theme: seven
 description: Custom theme for creating weddings.
 core_version_requirement: ^8.8 || ^9
 libraries:
