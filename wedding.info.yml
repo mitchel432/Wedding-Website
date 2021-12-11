@@ -4,7 +4,6 @@ description: 'Build out your own Wedding Site'
 core_version_requirement: '^8.8 || ^9'
 distribution:
   name: Wedding Profile
-base theme: stable
 dependencies:
   admin_toolbar
   admin_toolbar_tools

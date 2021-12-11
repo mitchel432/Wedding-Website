@@ -3,10 +3,8 @@ type: theme
 base theme: classy
 description: Custom theme for creating weddings.
 core_version_requirement: ^8.8 || ^9
-
 libraries:
   - wedding_theme/global-styling
-
 regions:
   header: Header
   content: Content
