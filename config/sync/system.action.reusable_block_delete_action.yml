@@ -1,4 +1,3 @@
-uuid: 7ade559e-392e-4008-88c8-64d935e2d0a5
 langcode: en
 status: true
 dependencies:
@@ -7,8 +6,6 @@ dependencies:
       - gutenberg
   module:
     - gutenberg
-_core:
-  default_config_hash: 6Nffs0f0augGItO21H-DDIcPxIBbB5txCgVuY_3xY8k
 id: reusable_block_delete_action
 label: 'Delete reusable block'
 type: block_content

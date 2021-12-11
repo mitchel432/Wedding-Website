@@ -1,11 +1,8 @@
-uuid: 041f9f32-62f8-496c-ae1a-7ad0cc98da88
 langcode: en
 status: true
 dependencies:
   theme:
     - adminimal_theme
-_core:
-  default_config_hash: Z3nlZUh2mSJP3apMrJWt-duS-aLyP79rcfu_0wpPmDs
 id: adminimal_theme_page_title
 theme: adminimal_theme
 region: header

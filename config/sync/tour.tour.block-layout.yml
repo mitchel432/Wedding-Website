@@ -1,11 +1,8 @@
-uuid: 681c9183-7c1f-4fc4-84ab-0511d8413276
 langcode: en
 status: true
 dependencies:
   module:
     - block
-_core:
-  default_config_hash: nU1OPAfeA3n0XjVOQ8RfAnSxyv4iTjZn7yBCj0MH9Jg
 id: block-layout
 label: 'Block Layout Page'
 module: block

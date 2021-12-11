@@ -1,4 +1,3 @@
-uuid: f20daf05-6891-4236-98be-985f37d4be61
 langcode: en
 status: true
 dependencies:
@@ -8,8 +7,6 @@ dependencies:
   module:
     - node
     - webform
-_core:
-  default_config_hash: SJRNyZvo1lWcPLKxH_u6giTk1y51ymXvpKX65YUNd7w
 id: node.webform
 field_name: webform
 entity_type: node

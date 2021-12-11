@@ -1,12 +1,9 @@
-uuid: f465d842-8e5b-4399-a223-0b4017161bd1
 langcode: en
 status: true
 dependencies:
   enforced:
     module:
       - webform
-_core:
-  default_config_hash: YNrKbYrWWjeubUUM8AsQ19KnX7cU1elACR14CZJHmdg
 id: days
 label: Days
 category: 'Date and time'

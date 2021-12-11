@@ -1,12 +1,9 @@
-uuid: 400bfeda-0109-4c82-98ae-c270d775e80f
 langcode: en
 status: true
 dependencies:
   enforced:
     module:
       - webform
-_core:
-  default_config_hash: yxhG0JmQs2HT-Ro6ZeDQboDc9ZWR4GglflTtyoqxK4A
 id: gender
 label: Gender
 category: Demographic

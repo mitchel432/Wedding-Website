@@ -1,4 +1,3 @@
-uuid: 82eaff69-f7b9-44fe-857d-8944f3e36c61
 langcode: en
 status: true
 dependencies:
@@ -12,8 +11,6 @@ dependencies:
     - block_content
     - text
     - user
-_core:
-  default_config_hash: ni-_Kxw7KXFA5blHyKmjWD7pHbGb6O69qNRbFrB1S7k
 id: reusable_blocks
 label: 'Reusable Blocks'
 module: views
