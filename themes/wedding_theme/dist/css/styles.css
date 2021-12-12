@@ -152,7 +152,8 @@ body.wedding-theme {
   position: relative; }
   .wedding-header .region-header #block-wedding-theme-branding {
     float: left;
-    z-index: 100; }
+    z-index: 100;
+    position: relative; }
   .wedding-header .region-header #block-wedding-theme-main-menu {
     position: absolute;
     top: 70px;
@@ -333,6 +334,10 @@ h1.page-title {
   padding: 30px;
   margin: 40px 0;
   box-shadow: 0px 0px 11px 0px #6c7379; }
+  .webform-submission-form .webform-section .form-item {
+    margin: 15px 0; }
+  .webform-submission-form .webform-section div#edit-you-re-vaccinated-right- {
+    padding-top: 15px; }
   .webform-submission-form .webform-section .webform-multiple-table--handle, .webform-submission-form .webform-section .tabledrag-toggle-weight-wrapper, .webform-submission-form .webform-section .js-form-type-number, .webform-submission-form .webform-section .webform-multiple-table--operations {
     display: none; }
   .webform-submission-form .webform-section .webform-flex--container {
@@ -360,6 +365,9 @@ h1.page-title {
     border: 1px dotted #000; }
   .webform-submission-form .webform-section .fieldset-wrapper {
     padding: 0 25px; }
+  .webform-submission-form .webform-section #edit-not-planning-on-driving-home- {
+    width: 21px;
+    height: 21px; }
 
 .webform-submission-form .webform-button--submit {
   width: 100%;
@@ -469,7 +477,8 @@ h1.page-title {
     text-align: center;
     display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    justify-content: space-between; }
     .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .hotel-or-camp .hotel-or-camp__wrapper img {
       width: 75px; }
   .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .hotel-or-camp .hotel-or-camp__hotel {
