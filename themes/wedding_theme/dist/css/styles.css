@@ -27,11 +27,11 @@
     .path-node:not(.path-frontpage) .block-system-main-block strong, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item a .hotel-title, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .hotel-or-camp .hotel-or-camp__wrapper {
       font-size: 40px; } }
 
-.path-node:not(.path-frontpage) .block-system-main-block .body-button a, .path-node:not(.path-frontpage) .block-system-main-block .button, .page-node-type-home-page .section-2 .field--name-field-map-link {
+.path-node:not(.path-frontpage) .block-system-main-block .body-button a, .path-node:not(.path-frontpage) .block-system-main-block .button, .page-node-type-home-page .section-2 .field--name-field-map-link a {
   font-size: 18px;
   font-family: Praline; }
   @media (min-width: 800px) {
-    .path-node:not(.path-frontpage) .block-system-main-block .body-button a, .path-node:not(.path-frontpage) .block-system-main-block .button, .page-node-type-home-page .section-2 .field--name-field-map-link {
+    .path-node:not(.path-frontpage) .block-system-main-block .body-button a, .path-node:not(.path-frontpage) .block-system-main-block .button, .page-node-type-home-page .section-2 .field--name-field-map-link a {
       font-size: 20px; } }
 
 .path-node:not(.path-frontpage) .block-system-main-block .body-button a.webform-button--submit, .path-node:not(.path-frontpage) .block-system-main-block .button.webform-button--submit, .webform-submission-form .webform-section label, .webform-submission-form .webform-section legend, .webform-submission-form .webform-button--submit, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-body {
@@ -275,9 +275,13 @@ h1.page-title {
     font-size: 18px; }
 
 .page-node-type-home-page .section-2 .geolocation-map-wrapper {
-  padding: 0 40px; }
+  padding: 40px 40px 0 40px; }
 
 .page-node-type-home-page .section-2 .field--name-field-map-link {
+  text-align: center;
+  padding: 20px; }
+
+.page-node-type-home-page .section-2 .field--name-field-map-link a {
   padding: 5px 10px;
   background-color: #757e60;
   color: white;
@@ -286,10 +290,10 @@ h1.page-title {
   border: none;
   text-align: center; }
   @media (min-width: 800px) {
-    .page-node-type-home-page .section-2 .field--name-field-map-link {
+    .page-node-type-home-page .section-2 .field--name-field-map-link a {
       padding: 5px 15px;
       border: 3px solid #757e60; } }
-  .page-node-type-home-page .section-2 .field--name-field-map-link:hover {
+  .page-node-type-home-page .section-2 .field--name-field-map-link a:hover {
     background-color: white;
     color: #757e60; }
 
