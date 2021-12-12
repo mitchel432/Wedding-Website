@@ -75,13 +75,8 @@
             @extend %pralineSans-small;
         }
 
-        #edit-not-planning-on-driving-home- {
-            width: 21px;
-            height: 21px;
-
-            &:checked {
-                
-            }
+        #edit-you-re-vaccinated-right- {
+            margin: 0 30px;
         }
     }
 
