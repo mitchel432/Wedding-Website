@@ -27,18 +27,18 @@
     .path-node:not(.path-frontpage) .block-system-main-block strong, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item a .hotel-title, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .hotel-or-camp .hotel-or-camp__wrapper {
       font-size: 40px; } }
 
-.path-node:not(.path-frontpage) .block-system-main-block .body-button a, .path-node:not(.path-frontpage) .block-system-main-block .button {
+.path-node:not(.path-frontpage) .block-system-main-block .body-button a, .path-node:not(.path-frontpage) .block-system-main-block .button, .path-node:not(.path-frontpage) .block-system-main-block .field--name-field-map-link {
   font-size: 18px;
   font-family: Praline; }
   @media (min-width: 800px) {
-    .path-node:not(.path-frontpage) .block-system-main-block .body-button a, .path-node:not(.path-frontpage) .block-system-main-block .button {
+    .path-node:not(.path-frontpage) .block-system-main-block .body-button a, .path-node:not(.path-frontpage) .block-system-main-block .button, .path-node:not(.path-frontpage) .block-system-main-block .field--name-field-map-link {
       font-size: 20px; } }
 
-.path-node:not(.path-frontpage) .block-system-main-block .body-button a.webform-button--submit, .path-node:not(.path-frontpage) .block-system-main-block .button.webform-button--submit, .webform-submission-form .webform-section label, .webform-submission-form .webform-section legend, .webform-submission-form .webform-button--submit, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-body {
+.path-node:not(.path-frontpage) .block-system-main-block .body-button a.webform-button--submit, .path-node:not(.path-frontpage) .block-system-main-block .button.webform-button--submit, .path-node:not(.path-frontpage) .block-system-main-block .field--name-field-map-link.webform-button--submit, .webform-submission-form .webform-section label, .webform-submission-form .webform-section legend, .webform-submission-form .webform-button--submit, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-body {
   font-size: 25px;
   font-family: PralineSans; }
   @media (min-width: 800px) {
-    .path-node:not(.path-frontpage) .block-system-main-block .body-button a.webform-button--submit, .path-node:not(.path-frontpage) .block-system-main-block .button.webform-button--submit, .webform-submission-form .webform-section label, .webform-submission-form .webform-section legend, .webform-submission-form .webform-button--submit, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-body {
+    .path-node:not(.path-frontpage) .block-system-main-block .body-button a.webform-button--submit, .path-node:not(.path-frontpage) .block-system-main-block .button.webform-button--submit, .path-node:not(.path-frontpage) .block-system-main-block .field--name-field-map-link.webform-button--submit, .webform-submission-form .webform-section label, .webform-submission-form .webform-section legend, .webform-submission-form .webform-button--submit, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-body {
       font-size: 35px; } }
 
 .path-node:not(.path-frontpage) .block-system-main-block, .page-node-type-home-page .section-3, .page-node-type-home-page .section-5, .page-node-type-home-page .section-5 .field__item .paragraph .field--name-field-date, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-split-text-1, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-split-text-2, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item:first-child a .hotel-link-text {
@@ -202,21 +202,22 @@ h1.page-title {
   color: #757e60; }
   .path-node:not(.path-frontpage) .block-system-main-block article {
     padding: 40px 0; }
-  .path-node:not(.path-frontpage) .block-system-main-block .body-button a, .path-node:not(.path-frontpage) .block-system-main-block .button {
+  .path-node:not(.path-frontpage) .block-system-main-block .body-button a, .path-node:not(.path-frontpage) .block-system-main-block .button, .path-node:not(.path-frontpage) .block-system-main-block .field--name-field-map-link {
     padding: 5px 10px;
     background-color: #757e60;
     color: white;
     border-radius: 10px;
     text-decoration: none;
-    border: none; }
+    border: none;
+    text-align: center; }
     @media (min-width: 800px) {
-      .path-node:not(.path-frontpage) .block-system-main-block .body-button a, .path-node:not(.path-frontpage) .block-system-main-block .button {
+      .path-node:not(.path-frontpage) .block-system-main-block .body-button a, .path-node:not(.path-frontpage) .block-system-main-block .button, .path-node:not(.path-frontpage) .block-system-main-block .field--name-field-map-link {
         padding: 5px 15px;
         border: 3px solid #757e60; } }
-    .path-node:not(.path-frontpage) .block-system-main-block .body-button a:hover, .path-node:not(.path-frontpage) .block-system-main-block .button:hover {
+    .path-node:not(.path-frontpage) .block-system-main-block .body-button a:hover, .path-node:not(.path-frontpage) .block-system-main-block .button:hover, .path-node:not(.path-frontpage) .block-system-main-block .field--name-field-map-link:hover {
       background-color: white;
       color: #757e60; }
-    .path-node:not(.path-frontpage) .block-system-main-block .body-button a.webform-button--submit, .path-node:not(.path-frontpage) .block-system-main-block .button.webform-button--submit {
+    .path-node:not(.path-frontpage) .block-system-main-block .body-button a.webform-button--submit, .path-node:not(.path-frontpage) .block-system-main-block .button.webform-button--submit, .path-node:not(.path-frontpage) .block-system-main-block .field--name-field-map-link.webform-button--submit {
       width: 100%;
       padding: 15px; }
   .path-node:not(.path-frontpage) .block-system-main-block .wp-block-image {
