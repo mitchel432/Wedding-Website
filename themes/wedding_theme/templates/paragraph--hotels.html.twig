@@ -51,8 +51,8 @@
     {% block content %}
       {% if content.field_heart_image[0]['#markup'] == 'Off' %}
         <a href="{{ content.field_link[0]['#context']['value'] }}">
-          <span class="hotel-title"{{ content.field_title }}</span>
-          <span class="hotel-link-text">{{ content.field_link_title }}</span>
+          <div class="hotel-title">{{ content.field_title }}</div>
+          <div class="hotel-link-text">{{ content.field_link_title }}</div>
         </a>
       {% else %}
        <div class="heart-image">
