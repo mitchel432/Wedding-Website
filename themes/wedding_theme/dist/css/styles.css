@@ -78,11 +78,11 @@ body.wedding-theme {
 .section-1:before, h1.page-title:before {
   content: '';
   position: absolute;
-  top: -155px;
+  top: -165px;
   right: 0;
   left: 0;
   bottom: 0;
-  background: #f5edea url(/profiles/wedding/themes/wedding_theme/src/images/background.jpg) top center no-repeat;
+  background: #f5edea url(/profiles/wedding/themes/wedding_theme/src/images/background.jpg) bottom center no-repeat;
   z-index: -1;
   background-size: cover; }
 
