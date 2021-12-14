@@ -93,16 +93,27 @@
   {% endif %}
 
   <div{{ content_attributes }}>
-    {{ content }}
+    {{ content.body }}
+    {{ content.field_map }}
+    <div class="split-text-wrapper">
+      {{ content.field_split_text_1 }}
+      {{ content.field_split_text_2 }}
+    </div>
+    {{ content.field_hotels }}
+    {{ content.field_second_body }}
   </div>
   <div class="hotel-or-camp">
     <div class="hotel-or-camp__hotel hotel-or-camp__wrapper">
+      <a href="/rsvp">
         <span class="hotel-or-camp__title hotel-title">i'm camping in a tent!</span>
         <img src="/{{ directory }}/src/images/travel-and-stay/tent.png" alt="tent icon"></img>
+      </a>
     </div>
     <div class="hotel-or-camp__tent hotel-or-camp__wrapper">
+      <a href="/rsvp">
         <span class="hotel-or-camp__title tent-title">i'm bringing my rv!</span>
         <img src="/{{ directory }}/src/images/travel-and-stay/rv.png" alt="tent icon"></img>
+      </a>
     </div>
   </div>
 

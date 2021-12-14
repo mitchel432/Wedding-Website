@@ -12,4 +12,3 @@ regions:
 libraries-override:
   system/admin: false
   seven/global-styling: false
-  webform/webform.element.managed_file: false
