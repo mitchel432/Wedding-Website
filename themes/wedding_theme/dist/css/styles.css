@@ -364,8 +364,6 @@ h1.page-title {
     padding: 5px 0; }
   .webform-submission-form .webform-section .button, .webform-submission-form .webform-section .form-textarea-wrapper {
     margin: 0px 30px; }
-  .webform-submission-form .webform-section .webform-element-description {
-    display: none; }
   .webform-submission-form .webform-section .description {
     color: #939193; }
   .webform-submission-form .webform-section .webform-type-radios .fieldset-wrapper input {
