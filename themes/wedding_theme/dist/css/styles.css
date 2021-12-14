@@ -420,7 +420,6 @@ h1.page-title {
     .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .split-text-wrapper {
       flex-direction: row; } }
   .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .split-text-wrapper .field--name-field-split-text-1, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .split-text-wrapper .field--name-field-split-text-2 {
-    float: flex;
     position: relative;
     max-width: 600px;
     padding: 40px 0;
@@ -451,8 +450,6 @@ h1.page-title {
         width: 3px; } }
 
 .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels {
-  float: left;
-  clear: left;
   margin: 0 1%;
   display: flex;
   flex-direction: row;

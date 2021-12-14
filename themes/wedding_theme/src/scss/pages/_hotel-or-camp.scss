@@ -24,7 +24,6 @@
         }
 
         .field--name-field-split-text-1, .field--name-field-split-text-2 {
-            float: flex;
             position: relative;
             max-width: 600px;
             @extend %pralineSans-medium;
@@ -63,8 +62,6 @@
 
 
     .field--name-field-hotels {
-        float: left;
-        clear: left;
         margin: 0 1%;
         display: flex;
         flex-direction: row;
