@@ -37,6 +37,12 @@
             margin: 0px 30px;
         }
 
+        // For File description
+        .webform-element-description {
+            padding: 0 25px;
+            @extend %pralineSans-small;
+        }
+
         .description {
             color: #939193;
         }

@@ -48,11 +48,11 @@
     .path-node:not(.path-frontpage) .block-system-main-block, .page-node-type-home-page .section-3, .page-node-type-home-page .section-5, .page-node-type-home-page .section-5 .field__item .paragraph .field--name-field-date, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .split-text-wrapper .field--name-field-split-text-1, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .split-text-wrapper .field--name-field-split-text-2, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item:first-child a .hotel-link-text {
       font-size: 25px; } }
 
-.webform-submission-form .webform-section .webform-type-radios .fieldset-wrapper input[type=radio] + label, .webform-submission-form .webform-section .fieldset-wrapper, .shenanigans-text .body-small, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item a .hotel-link-text {
+.webform-submission-form .webform-section .webform-element-description, .webform-submission-form .webform-section .webform-type-radios .fieldset-wrapper input[type=radio] + label, .webform-submission-form .webform-section .fieldset-wrapper, .shenanigans-text .body-small, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item a .hotel-link-text {
   font-size: 18px;
   font-family: PralineSans; }
   @media (min-width: 800px) {
-    .webform-submission-form .webform-section .webform-type-radios .fieldset-wrapper input[type=radio] + label, .webform-submission-form .webform-section .fieldset-wrapper, .shenanigans-text .body-small, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item a .hotel-link-text {
+    .webform-submission-form .webform-section .webform-element-description, .webform-submission-form .webform-section .webform-type-radios .fieldset-wrapper input[type=radio] + label, .webform-submission-form .webform-section .fieldset-wrapper, .shenanigans-text .body-small, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item a .hotel-link-text {
       font-size: 20px; } }
 
 .path-node:not(.path-frontpage) .block-system-main-block article {
@@ -364,6 +364,8 @@ h1.page-title {
     padding: 5px 0; }
   .webform-submission-form .webform-section .button, .webform-submission-form .webform-section .form-textarea-wrapper {
     margin: 0px 30px; }
+  .webform-submission-form .webform-section .webform-element-description {
+    padding: 0 25px; }
   .webform-submission-form .webform-section .description {
     color: #939193; }
   .webform-submission-form .webform-section .webform-type-radios .fieldset-wrapper input {
