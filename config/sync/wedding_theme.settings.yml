@@ -5,6 +5,6 @@ features:
   favicon: 1
 logo:
   use_default: 0
-  path: profiles/wedding/themes/wedding_theme/src/images/logo.png
+  path: profiles/wedding_website/themes/wedding_theme/src/images/logo.png
 favicon:
   use_default: 1

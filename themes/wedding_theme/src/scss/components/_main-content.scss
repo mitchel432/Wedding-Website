@@ -4,16 +4,19 @@ h1.page-title {
     text-align: center;
     position: relative;
     display: flex;
-    align-items: center;
+    // align-items: center;
     justify-content: center;
     font-size: 65px;
-    font-weight: bold;
+    color: #084943;
+    text-shadow: 0 0 0px #084943;
+    font-family: abigail, sans-serif;
+    font-weight: normal;
     padding: 0 50px;
     height: 500px;
     @media (min-width: 800px) {
         height: calc(30vh);
         font-size: 95px;
-        padding: 5% 250px;
+        padding: 1% 250px 9% 250px;
         margin: 0;
     }
 

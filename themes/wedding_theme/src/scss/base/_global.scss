@@ -1,9 +1,13 @@
 body.wedding-theme {
     font-size: 15px;
-    // background: #f8f3ea url(/profiles/wedding/themes/wedding_theme/src/images/background5.png) top center no-repeat;
+    // background: #f8f3ea url(/profiles/wedding_website/themes/wedding_theme/src/images/background5.png) top center no-repeat;
     font-family: sans-serif;
     // background-size: contain;
     letter-spacing: 3px;
+}
+
+.path-frontpage .section-1:before, h1.page-title:before {
+    background-position: top center;
 }
 
 .section-1:before, h1.page-title:before {
@@ -13,7 +17,8 @@ body.wedding-theme {
     right: 0;
     left: 0;
     bottom: 0;
-    background: #f8f3ea url(/profiles/wedding/themes/wedding_theme/src/images/background.jpg) bottom center no-repeat;
+    background: #f8f3ea url(/profiles/wedding_website/themes/wedding_theme/src/images/background.png) no-repeat;
+    background-position: bottom;
     z-index: -1;
     background-size: cover;
 }
@@ -25,5 +30,5 @@ body.wedding-theme {
 @font-face {
     font-family: "abigail";
     src: url('../../src/fonts/abigail-v4.woff') format('woff');
-    font-color: #084943;
+    color: #084943;
 }

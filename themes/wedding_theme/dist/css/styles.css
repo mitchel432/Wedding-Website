@@ -94,6 +94,9 @@ body.wedding-theme {
   font-family: sans-serif;
   letter-spacing: 3px; }
 
+.path-frontpage .section-1:before, h1.page-title:before {
+  background-position: top center; }
+
 .section-1:before, h1.page-title:before {
   content: '';
   position: absolute;
@@ -101,7 +104,8 @@ body.wedding-theme {
   right: 0;
   left: 0;
   bottom: 0;
-  background: #f8f3ea url(/profiles/wedding/themes/wedding_theme/src/images/background.jpg) bottom center no-repeat;
+  background: #f8f3ea url(/profiles/wedding_website/themes/wedding_theme/src/images/background.png) no-repeat;
+  background-position: bottom;
   z-index: -1;
   background-size: cover; }
 
@@ -111,7 +115,7 @@ body.wedding-theme {
 @font-face {
   font-family: "abigail";
   src: url("../../src/fonts/abigail-v4.woff") format("woff");
-  font-color: #084943; }
+  color: #084943; }
 
 .wedding-header .wedding-logo img {
   width: 150px; }
@@ -212,17 +216,19 @@ h1.page-title {
   text-align: center;
   position: relative;
   display: flex;
-  align-items: center;
   justify-content: center;
   font-size: 65px;
-  font-weight: bold;
+  color: #084943;
+  text-shadow: 0 0 0px #084943;
+  font-family: abigail, sans-serif;
+  font-weight: normal;
   padding: 0 50px;
   height: 500px; }
   @media (min-width: 800px) {
     h1.page-title {
       height: calc(30vh);
       font-size: 95px;
-      padding: 5% 250px;
+      padding: 1% 250px 9% 250px;
       margin: 0; } }
 
 .path-node:not(.path-frontpage) .block-system-main-block {
@@ -274,20 +280,28 @@ h1.page-title {
 
 .page-node-type-home-page .section-1 {
   background-color: transparent;
-  padding: calc(50vh - 245px) 0;
+  padding: calc(40vh - 245px) 0 calc(60vh - 245px) 0;
   text-align: center;
   font-family: abigail;
   letter-spacing: 0px;
   position: relative; }
   @media (min-width: 800px) {
     .page-node-type-home-page .section-1 {
-      padding: calc(50vh - 295px) 0; } }
+      padding: calc(40vh - 295px) 0 calc(60vh - 295px) 0; } }
+  .page-node-type-home-page .section-1 img {
+    width: 350px; }
+    @media (min-width: 800px) {
+      .page-node-type-home-page .section-1 img {
+        width: 750px; } }
+    @media (min-width: 1000px) {
+      .page-node-type-home-page .section-1 img {
+        width: 950px; } }
   .page-node-type-home-page .section-1 .field--name-body {
     font-size: 25px;
     color: #084943;
     text-shadow: 0 0 0px #084943;
     line-height: 1.4;
-    padding: 30px; }
+    padding: 10px 30px 50px 30px; }
     @media (min-width: 480px) {
       .page-node-type-home-page .section-1 .field--name-body {
         font-size: 30px; } }
