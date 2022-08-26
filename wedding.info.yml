@@ -1,4 +1,4 @@
-name: Wedding Profile
+name: Wedding
 type: profile
 description: 'Build out your own Wedding Site'
 core_version_requirement: '^8.8 || ^9'
