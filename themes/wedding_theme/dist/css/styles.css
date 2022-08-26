@@ -7,53 +7,72 @@
   font-family: PralineSans; }
 
 .page-node-type-home-page .section-3 .field--name-field-map-info strong, .page-node-type-home-page .section-5 .field__label {
-  font-size: 55px;
-  font-family: Praline; }
+  font-size: 75px;
+  font-family: abigail, sans-serif;
+  color: #084943;
+  letter-spacing: 0px;
+  text-shadow: 0 0 0px #084943;
+  text-rendering: geometricPrecision; }
   @media (min-width: 800px) {
     .page-node-type-home-page .section-3 .field--name-field-map-info strong, .page-node-type-home-page .section-5 .field__label {
-      font-size: 80px; } }
+      font-size: 100px; } }
 
-.page-node-type-home-page .section-5 .field__item .paragraph .field--name-field-shenanigans-title, .webform-submission-form .webform-section h2, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-body strong, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item:first-child a .hotel-title {
-  font-size: 40px;
-  font-family: Praline; }
+.page-node-type-home-page .section-5 .field__items > .field__item .paragraph .field--name-field-shenanigans-title, .webform-submission-form .webform-section h2, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-body strong, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item:first-child a .hotel-title {
+  font-size: 60px;
+  font-family: abigail, sans-serif;
+  color: #084943;
+  letter-spacing: 0px;
+  text-shadow: 0 0 0px #084943;
+  text-rendering: geometricPrecision; }
   @media (min-width: 800px) {
-    .page-node-type-home-page .section-5 .field__item .paragraph .field--name-field-shenanigans-title, .webform-submission-form .webform-section h2, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-body strong, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item:first-child a .hotel-title {
-      font-size: 50px; } }
+    .page-node-type-home-page .section-5 .field__items > .field__item .paragraph .field--name-field-shenanigans-title, .webform-submission-form .webform-section h2, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-body strong, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item:first-child a .hotel-title {
+      font-size: 70px; } }
 
 .path-node:not(.path-frontpage) .block-system-main-block strong, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item a .hotel-title, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .hotel-or-camp .hotel-or-camp__wrapper a {
-  font-size: 30px;
-  font-family: Praline; }
+  font-size: 45px;
+  font-family: abigail, sans-serif;
+  color: #084943;
+  letter-spacing: 0px;
+  text-shadow: 0 0 0px #084943;
+  text-rendering: geometricPrecision; }
   @media (min-width: 800px) {
     .path-node:not(.path-frontpage) .block-system-main-block strong, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item a .hotel-title, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .hotel-or-camp .hotel-or-camp__wrapper a {
-      font-size: 40px; } }
+      font-size: 55px; } }
 
-.path-node:not(.path-frontpage) .block-system-main-block .body-button a, .path-node:not(.path-frontpage) .block-system-main-block .button, .page-node-type-home-page .section-2 .field--name-field-map-link a {
-  font-size: 18px;
-  font-family: Praline; }
+.path-node:not(.path-frontpage) .block-system-main-block .body-button a, .path-node:not(.path-frontpage) .block-system-main-block .button, .page-node-type-home-page .section-2 .field--name-field-map-link a, .page-node-type-home-page .section-3 .field--name-field-map-info p, .page-node-type-home-page .section-5 .field__items > .field__item .paragraph .field--name-field-festivities-location {
+  font-size: 33px;
+  font-family: abigail, sans-serif;
+  color: #084943;
+  letter-spacing: 0px;
+  text-shadow: 0 0 0px #084943;
+  text-rendering: geometricPrecision; }
   @media (min-width: 800px) {
-    .path-node:not(.path-frontpage) .block-system-main-block .body-button a, .path-node:not(.path-frontpage) .block-system-main-block .button, .page-node-type-home-page .section-2 .field--name-field-map-link a {
-      font-size: 20px; } }
-
-.path-node:not(.path-frontpage) .block-system-main-block .body-button a.webform-button--submit, .path-node:not(.path-frontpage) .block-system-main-block .button.webform-button--submit, .webform-submission-form .webform-section label, .webform-submission-form .webform-section legend, .webform-submission-form .webform-button--submit, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-body {
-  font-size: 25px;
-  font-family: PralineSans; }
-  @media (min-width: 800px) {
-    .path-node:not(.path-frontpage) .block-system-main-block .body-button a.webform-button--submit, .path-node:not(.path-frontpage) .block-system-main-block .button.webform-button--submit, .webform-submission-form .webform-section label, .webform-submission-form .webform-section legend, .webform-submission-form .webform-button--submit, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-body {
+    .path-node:not(.path-frontpage) .block-system-main-block .body-button a, .path-node:not(.path-frontpage) .block-system-main-block .button, .page-node-type-home-page .section-2 .field--name-field-map-link a, .page-node-type-home-page .section-3 .field--name-field-map-info p, .page-node-type-home-page .section-5 .field__items > .field__item .paragraph .field--name-field-festivities-location {
       font-size: 35px; } }
 
-.path-node:not(.path-frontpage) .block-system-main-block, .page-node-type-home-page .section-3, .page-node-type-home-page .section-5, .page-node-type-home-page .section-5 .field__item .paragraph .field--name-field-date, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .split-text-wrapper .field--name-field-split-text-1, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .split-text-wrapper .field--name-field-split-text-2, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item:first-child a .hotel-link-text {
-  font-size: 20px;
-  font-family: PralineSans; }
+.path-node:not(.path-frontpage) .block-system-main-block .body-button a.webform-button--submit, .path-node:not(.path-frontpage) .block-system-main-block .button.webform-button--submit, .webform-submission-form .webform-section label, .webform-submission-form .webform-section legend, .webform-submission-form .webform-button--submit, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-body {
+  font-size: 18px;
+  font-family: calibri;
+  color: #084943; }
   @media (min-width: 800px) {
-    .path-node:not(.path-frontpage) .block-system-main-block, .page-node-type-home-page .section-3, .page-node-type-home-page .section-5, .page-node-type-home-page .section-5 .field__item .paragraph .field--name-field-date, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .split-text-wrapper .field--name-field-split-text-1, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .split-text-wrapper .field--name-field-split-text-2, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item:first-child a .hotel-link-text {
-      font-size: 25px; } }
+    .path-node:not(.path-frontpage) .block-system-main-block .body-button a.webform-button--submit, .path-node:not(.path-frontpage) .block-system-main-block .button.webform-button--submit, .webform-submission-form .webform-section label, .webform-submission-form .webform-section legend, .webform-submission-form .webform-button--submit, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-body {
+      font-size: 28px; } }
+
+.path-node:not(.path-frontpage) .block-system-main-block, .page-node-type-home-page .section-3, .page-node-type-home-page .section-5, .page-node-type-home-page .section-5 .field__items > .field__item .paragraph .field--name-field-date, .page-node-type-home-page .section-5 .field__items > .field__item .paragraph .field field--name-field-shenanigans-body, .page-node-type-home-page .section-5 .field__items > .field__item .paragraph .field--name-field-festivities-attire, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .split-text-wrapper .field--name-field-split-text-1, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .split-text-wrapper .field--name-field-split-text-2, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item:first-child a .hotel-link-text {
+  font-size: 13px;
+  font-family: calibri;
+  color: #084943; }
+  @media (min-width: 800px) {
+    .path-node:not(.path-frontpage) .block-system-main-block, .page-node-type-home-page .section-3, .page-node-type-home-page .section-5, .page-node-type-home-page .section-5 .field__items > .field__item .paragraph .field--name-field-date, .page-node-type-home-page .section-5 .field__items > .field__item .paragraph .field field--name-field-shenanigans-body, .page-node-type-home-page .section-5 .field__items > .field__item .paragraph .field--name-field-festivities-attire, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .split-text-wrapper .field--name-field-split-text-1, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .split-text-wrapper .field--name-field-split-text-2, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item:first-child a .hotel-link-text {
+      font-size: 18px; } }
 
 .webform-submission-form .webform-section .webform-element-description, .webform-submission-form .webform-section .webform-type-radios .fieldset-wrapper input[type=radio] + label, .webform-submission-form .webform-section .fieldset-wrapper, .shenanigans-text .body-small, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item a .hotel-link-text {
-  font-size: 18px;
-  font-family: PralineSans; }
+  font-size: 11px;
+  font-family: calibri;
+  color: #084943; }
   @media (min-width: 800px) {
     .webform-submission-form .webform-section .webform-element-description, .webform-submission-form .webform-section .webform-type-radios .fieldset-wrapper input[type=radio] + label, .webform-submission-form .webform-section .fieldset-wrapper, .shenanigans-text .body-small, .path-node:not(.path-frontpage) .block-system-main-block article.node--type-hotel-or-camp .field--name-field-hotels > .field__item a .hotel-link-text {
-      font-size: 20px; } }
+      font-size: 13px; } }
 
 .path-node:not(.path-frontpage) .block-system-main-block article {
   margin: 0 10%; }
@@ -72,8 +91,8 @@
 
 body.wedding-theme {
   font-size: 15px;
-  font-family: PralineSans;
-  color: #f9f3ee; }
+  font-family: sans-serif;
+  letter-spacing: 3px; }
 
 .section-1:before, h1.page-title:before {
   content: '';
@@ -82,17 +101,25 @@ body.wedding-theme {
   right: 0;
   left: 0;
   bottom: 0;
-  background: #f5edea url(/profiles/wedding/themes/wedding_theme/src/images/background.jpg) bottom center no-repeat;
+  background: #f8f3ea url(/profiles/wedding/themes/wedding_theme/src/images/background.jpg) bottom center no-repeat;
   z-index: -1;
   background-size: cover; }
 
+#block-wedding-theme-local-tasks {
+  display: none; }
+
+@font-face {
+  font-family: "abigail";
+  src: url("../../src/fonts/abigail-v4.woff") format("woff");
+  font-color: #084943; }
+
 .wedding-header .wedding-logo img {
-  width: 100px; }
+  width: 150px; }
 
 .wedding-header #block-wedding-theme-main-menu button {
   position: absolute;
   right: 15px;
-  top: 15px;
+  top: 10px;
   padding: 8px;
   border: 2px solid #fff;
   border-radius: 5px;
@@ -116,10 +143,9 @@ body.wedding-theme {
     right: 0;
     top: 0;
     padding: 50px 0 50px 20px;
-    background-color: #f5edea;
+    background-color: #767676;
     margin: 0;
     text-align: right;
-    box-shadow: -1px 1px 10px 0px black;
     z-index: 9; }
     .wedding-header #block-wedding-theme-main-menu #menu.is-active .menu-item {
       padding: 15px;
@@ -127,7 +153,7 @@ body.wedding-theme {
       font-size: 20px; }
       .wedding-header #block-wedding-theme-main-menu #menu.is-active .menu-item a {
         text-decoration: none;
-        color: #757e60; }
+        color: #084943; }
   @media (min-width: 1000px) {
     .wedding-header #block-wedding-theme-main-menu #menu {
       display: flex;
@@ -135,17 +161,21 @@ body.wedding-theme {
       justify-content: center;
       height: 100%;
       align-items: center;
-      font-size: 20px;
-      text-shadow: 0 0 7px black; }
+      font-size: 15px;
+      letter-spacing: 1px;
+      text-transform: uppercase; }
       .wedding-header #block-wedding-theme-main-menu #menu .menu-item {
-        margin: 5px;
-        padding: 5px 10px;
         list-style: none; }
         .wedding-header #block-wedding-theme-main-menu #menu .menu-item a {
-          color: #f9f3ee;
+          padding: 5px 25px;
+          color: #767676;
           text-decoration: none; }
         .wedding-header #block-wedding-theme-main-menu #menu .menu-item:hover {
           text-decoration: underline; } }
+  @media (min-width: 1200px) {
+    .wedding-header #block-wedding-theme-main-menu #menu {
+      font-size: 16px;
+      letter-spacing: 3px; } }
 
 .wedding-header {
   padding: 15px;
@@ -156,13 +186,13 @@ body.wedding-theme {
     position: relative; }
   .wedding-header .region-header #block-wedding-theme-main-menu {
     position: absolute;
-    top: 70px;
+    top: 100px;
     left: 0;
     right: 0;
     bottom: 0; }
     @media (min-width: 1000px) {
       .wedding-header .region-header #block-wedding-theme-main-menu {
-        top: 50px; } }
+        top: 10px; } }
   .wedding-header #rsvp-block {
     position: absolute;
     top: 30px;
@@ -175,12 +205,11 @@ body.wedding-theme {
       width: 150px;
       height: auto; }
     .wedding-header #rsvp-block:hover {
-      border-bottom: 2px solid white; }
+      border-bottom: 2px solid #084943; }
 
 h1.page-title {
   background-color: transparent;
   text-align: center;
-  font-family: Praline;
   position: relative;
   display: flex;
   align-items: center;
@@ -198,7 +227,7 @@ h1.page-title {
 
 .path-node:not(.path-frontpage) .block-system-main-block {
   width: auto;
-  background-color: #f5edea;
+  background-color: #f8f3ea;
   color: #757e60; }
   .path-node:not(.path-frontpage) .block-system-main-block article {
     padding: 40px 0; }
@@ -226,6 +255,14 @@ h1.page-title {
       width: 100%;
       height: auto; }
 
+.footer-icon {
+  background-color: #f8f3ea;
+  text-align: center;
+  padding: 100px; }
+  .footer-icon img {
+    width: 180px;
+    height: auto; }
+
 .page-node-type-home-page .page-title {
   display: none; }
 
@@ -233,23 +270,24 @@ h1.page-title {
   background-color: transparent; }
 
 .page-node-type-home-page .section {
-  background-color: #f5edea; }
+  background-color: #f8f3ea; }
 
 .page-node-type-home-page .section-1 {
   background-color: transparent;
   padding: calc(50vh - 245px) 0;
   text-align: center;
-  font-family: Praline;
+  font-family: abigail;
+  letter-spacing: 0px;
   position: relative; }
   @media (min-width: 800px) {
     .page-node-type-home-page .section-1 {
       padding: calc(50vh - 295px) 0; } }
   .page-node-type-home-page .section-1 .field--name-body {
     font-size: 25px;
-    font-weight: bold;
+    color: #084943;
+    text-shadow: 0 0 0px #084943;
     line-height: 1.4;
-    padding: 30px;
-    text-shadow: 0 0 7px black; }
+    padding: 30px; }
     @media (min-width: 480px) {
       .page-node-type-home-page .section-1 .field--name-body {
         font-size: 30px; } }
@@ -257,13 +295,14 @@ h1.page-title {
       .page-node-type-home-page .section-1 .field--name-body {
         font-size: 65px; } }
     .page-node-type-home-page .section-1 .field--name-body strong {
-      font-size: 45px; }
+      font-weight: normal;
+      font-size: 65px; }
       @media (min-width: 480px) {
         .page-node-type-home-page .section-1 .field--name-body strong {
-          font-size: 60px; } }
+          font-size: 80px; } }
       @media (min-width: 800px) {
         .page-node-type-home-page .section-1 .field--name-body strong {
-          font-size: 95px; } }
+          font-size: 115px; } }
     .page-node-type-home-page .section-1 .field--name-body p {
       padding: 0;
       margin: 0; }
@@ -308,46 +347,68 @@ h1.page-title {
     color: #757e60; }
     .page-node-type-home-page .section-3 .field--name-field-map-info strong {
       font-weight: normal; }
+    .page-node-type-home-page .section-3 .field--name-field-map-info p {
+      font-weight: normal;
+      text-transform: uppercase; }
 
 .page-node-type-home-page .section-4 {
   padding: 60px; }
+  .page-node-type-home-page .section-4 .field--name-field-carousel- {
+    margin: 0 auto;
+    max-width: 1300px; }
   .page-node-type-home-page .section-4 .slick-prev {
     left: -45px; }
   .page-node-type-home-page .section-4 .slick-prev:before,
   .page-node-type-home-page .section-4 .slick-next:before {
     color: #757e60;
     font-size: 45px; }
+  .page-node-type-home-page .section-4 .field--name-field-media-image {
+    padding: 10px;
+    overflow: hidden; }
+    .page-node-type-home-page .section-4 .field--name-field-media-image .field__item {
+      display: flex;
+      justify-content: center;
+      overflow: hidden; }
 
 .page-node-type-home-page .section-5 {
   padding: 40px 5%;
-  text-align: center;
-  color: #757e60; }
+  text-align: center; }
   @media (min-width: 1200px) {
     .page-node-type-home-page .section-5 {
       padding: 40px 25%; } }
   .page-node-type-home-page .section-5 .field__label {
     font-weight: normal;
     padding-bottom: 60px; }
-  .page-node-type-home-page .section-5 .field__item .paragraph {
-    position: relative; }
-    .page-node-type-home-page .section-5 .field__item .paragraph:after {
-      content: '';
-      display: block;
-      width: 3px;
-      height: 150px;
-      background-color: #e3a85d;
-      margin: 30px auto; }
-    .page-node-type-home-page .section-5 .field__item .paragraph .field--name-field-date {
-      text-transform: uppercase;
-      padding: 10px; }
-    .page-node-type-home-page .section-5 .field__item .paragraph .field--name-field-shenanigans-title {
-      font-weight: normal;
-      padding: 10px; }
-    .page-node-type-home-page .section-5 .field__item .paragraph p {
-      padding: 0;
-      margin: 0; }
-  .page-node-type-home-page .section-5 .field__item:last-child .paragraph:after {
-    content: none; }
+  .page-node-type-home-page .section-5 .field__items > .field__item {
+    padding-bottom: 150px; }
+    .page-node-type-home-page .section-5 .field__items > .field__item:last-child {
+      padding-bottom: 0; }
+    .page-node-type-home-page .section-5 .field__items > .field__item .paragraph {
+      position: relative; }
+      .page-node-type-home-page .section-5 .field__items > .field__item .paragraph .field {
+        padding: 0 25%; }
+      .page-node-type-home-page .section-5 .field__items > .field__item .paragraph .field--name-field-shenanigans-title {
+        padding: 0; }
+      .page-node-type-home-page .section-5 .field__items > .field__item .paragraph .field--name-field-date {
+        text-transform: uppercase;
+        padding: 10px; }
+      .page-node-type-home-page .section-5 .field__items > .field__item .paragraph .field--name-field-shenanigans-title {
+        font-weight: normal;
+        padding: 10px; }
+      .page-node-type-home-page .section-5 .field__items > .field__item .paragraph p {
+        padding: 0;
+        margin: 0; }
+      .page-node-type-home-page .section-5 .field__items > .field__item .paragraph .field--name-field-shenanigans-body:after {
+        content: '';
+        display: block;
+        width: 30px;
+        height: 30px;
+        background: url("../../src/images/location-icon.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin: 30px auto; }
+    .page-node-type-home-page .section-5 .field__items > .field__item:last-child .paragraph:after {
+      content: none; }
 
 .webform-submission-form .webform-section {
   background-color: #f8f6f4;
@@ -376,7 +437,6 @@ h1.page-title {
     color: #757e60;
     border-radius: 10px;
     text-decoration: none;
-    font-family: Praline;
     border: 3px solid #757e60; }
   .webform-submission-form .webform-section .webform-type-radios .fieldset-wrapper input[type=radio]:checked + label {
     background-color: #757e60;

@@ -1,3 +1,4 @@
+uuid: 06ce3ea6-a3fe-455e-876c-cfd5be7953fd
 langcode: en
 status: true
 dependencies:
@@ -11,7 +12,7 @@ id: node.home_page.field_shenanigans
 field_name: field_shenanigans
 entity_type: node
 bundle: home_page
-label: Shenanigans
+label: 'Planned Festivities'
 description: ''
 required: false
 translatable: false
@@ -20,11 +21,14 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
-    negate: 0
     target_bundles:
       shenanigans: shenanigans
+    negate: 0
     target_bundles_drag_drop:
+      hotels:
+        weight: 3
+        enabled: false
       shenanigans:
-        enabled: true
         weight: 2
+        enabled: true
 field_type: entity_reference_revisions

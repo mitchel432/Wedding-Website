@@ -1,3 +1,4 @@
+uuid: 865f421c-1b53-468f-8141-54ef68c47fd9
 langcode: en
 status: true
 dependencies:
@@ -5,6 +6,8 @@ dependencies:
     - system
   theme:
     - adminimal_theme
+_core:
+  default_config_hash: 80N66GdzEvwqi1m-_GZ-ulkk8AJG9beoXcZ4-pMVKjI
 id: adminimal_theme_content
 theme: adminimal_theme
 region: content

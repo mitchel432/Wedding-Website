@@ -1,14 +1,14 @@
 .wedding-header {
     // background: gray;
     .wedding-logo img {
-        width: 100px;
+        width: 150px;
     }
 
     #block-wedding-theme-main-menu {
         button {
             position: absolute;
             right: 15px;
-            top: 15px;
+            top: 10px;
             padding: 8px;
             border: 2px solid #fff;
             border-radius: 5px;
@@ -37,10 +37,10 @@
                 right: 0;
                 top: 0;
                 padding: 50px 0 50px 20px;
-                background-color: #f5edea;
+                background-color: #767676;
                 margin: 0;
                 text-align: right;
-                box-shadow: -1px 1px 10px 0px black;
+                // box-shadow: -1px 1px 10px 0px black;
                 z-index: 9;
 
                 .menu-item {
@@ -50,28 +50,27 @@
 
                     a {
                         text-decoration: none;
-                        color: #757e60;
+                        color: #084943;
                     }
                 }
             }
-            
-
             @media (min-width: 1000px) {
                 display: flex;
                 margin: 0;
                 justify-content: center;
                 height: 100%;
                 align-items: center; 
-                font-size: 20px;
-                text-shadow: 0 0 7px black;
+                font-size: 15px;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                // text-shadow: 0 0 7px black;
     
                 .menu-item {
-                    margin: 5px;
-                    padding: 5px 10px;
                     list-style: none;
                     
                     a {
-                        color: #f9f3ee;
+                        padding: 5px 25px;
+                        color: #767676;
                         text-decoration: none;
                     }
     
@@ -79,6 +78,11 @@
                         text-decoration: underline;
                     }
                 }
+            }
+
+            @media (min-width: 1200px) {
+                font-size: 16px;
+                letter-spacing: 3px;
             }
         }
     }

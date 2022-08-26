@@ -1,9 +1,12 @@
+uuid: d474413b-7bb5-4f6c-8927-00ee264810b3
 langcode: en
 status: true
 dependencies:
   enforced:
     module:
       - webform
+_core:
+  default_config_hash: cR3A6XXinVGC9g5vLS-vVvTC2ppZXRNXLPWA8xBUMew
 id: province_codes
 label: 'Province codes'
 category: Geographic

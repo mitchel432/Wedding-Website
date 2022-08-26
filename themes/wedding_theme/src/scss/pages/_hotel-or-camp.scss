@@ -3,13 +3,13 @@
     
     .field--name-body {
         margin: 0 15%;
-        @extend %pralineSans-large;
+        @extend %sans-serif-large;
         @media (min-width: 800px) {
             margin: 0 20%;
         }
         
         strong {
-            @extend %praline-large;
+            @extend %abigail-large;
         }
         
     }
@@ -26,7 +26,7 @@
         .field--name-field-split-text-1, .field--name-field-split-text-2 {
             position: relative;
             max-width: 600px;
-            @extend %pralineSans-medium;
+            @extend %sans-serif-medium;
             padding: 40px 0;
             margin: 0 40px;
             @media (min-width: 800px) {
@@ -95,7 +95,7 @@
                 .hotel-title {
                     
                     padding-bottom: 20px;
-                    @extend %praline-medium;
+                    @extend %abigail-medium;
                     font-size: 22px;
                     @media (min-width: 600px) {
                         font-size: 30px;
@@ -105,7 +105,7 @@
                     }
                 }
                 .hotel-link-text {
-                    @extend %pralineSans-small;
+                    @extend %sans-serif-small;
                     width: auto;
                     padding: 5px 10px;
                     border-radius: 10px;
@@ -126,12 +126,12 @@
                 }
                 a {
                     .hotel-title {
-                        @extend %praline-large;
+                        @extend %abigail-large;
                         font-weight: bold;
                         padding-bottom: 30px;
                     }
                     .hotel-link-text {
-                        @extend %pralineSans-medium;
+                        @extend %sans-serif-medium;
                         padding: 10px 20px;
                     }
                 }
@@ -167,7 +167,7 @@
             min-width: 240px;
             position: relative;
             margin-top: 25px;
-            @extend %praline-medium;
+            @extend %abigail-medium;
             text-align: center;
             display: flex;
             flex-direction: column;

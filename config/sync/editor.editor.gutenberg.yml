@@ -1,3 +1,4 @@
+uuid: f73fba03-2f32-4960-add0-ed074113ed71
 langcode: en
 status: true
 dependencies:
@@ -8,6 +9,8 @@ dependencies:
       - gutenberg
   module:
     - gutenberg
+_core:
+  default_config_hash: v72S6pxc_3CvTSaQhT9gH2hm7xWLXzc0MA14mmprxX8
 format: gutenberg
 editor: gutenberg
 settings:

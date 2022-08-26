@@ -1,3 +1,4 @@
+uuid: 94e5d4de-ad1b-4d39-a47a-4e9a1030b1c0
 langcode: en
 status: true
 dependencies:
@@ -7,6 +8,8 @@ dependencies:
     - system
   theme:
     - wedding_theme
+_core:
+  default_config_hash: ChCx7DYNUrPTt5uiRdQAPDKJQMc-_SyAQTrZh8H0o-c
 id: wedding_theme_main_menu
 theme: wedding_theme
 region: header

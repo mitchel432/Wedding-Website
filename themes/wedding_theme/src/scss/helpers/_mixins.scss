@@ -1,58 +1,77 @@
 // Praline - Title, large text
-%praline-extra-large {
-    font-size: 55px;
-    font-family: Praline;
+%abigail-extra-large {
+    font-size: 75px;
+    font-family: abigail, sans-serif;
+    color: #084943;
+    letter-spacing: 0px;
+    text-shadow: 0 0 0px #084943;
+    text-rendering: geometricPrecision;
     @media (min-width: 800px) {
-        font-size: 80px;
+        font-size: 100px;
     }
 }
 
-%praline-large {
-    font-size: 40px;
-    font-family: Praline;
+%abigail-large {
+    font-size: 60px;
+    font-family: abigail, sans-serif;
+    color: #084943;
+    letter-spacing: 0px;
+    text-shadow: 0 0 0px #084943;
+    text-rendering: geometricPrecision;
     @media (min-width: 800px) {
-        font-size: 50px;
+        font-size: 70px;
     }
 }
 
-%praline-medium {
-    font-size: 30px;
-    font-family: Praline;
+%abigail-medium {
+    font-size: 45px;
+    font-family: abigail, sans-serif;
+    color: #084943;
+    letter-spacing: 0px;
+    text-shadow: 0 0 0px #084943;
+    text-rendering: geometricPrecision;
     @media (min-width: 800px) {
-        font-size: 40px;
+        font-size: 55px;
     }
 }
 
-%praline-small {
-    font-size: 18px;
-    font-family: Praline;
-    @media (min-width: 800px) {
-        font-size: 20px;
-    }
-}
-
-// PralineSans - Normal text
-%pralineSans-large {
-    font-size: 25px;
-    font-family: PralineSans;
+%abigail-small {
+    font-size: 33px;
+    font-family: abigail, sans-serif;
+    color: #084943;
+    letter-spacing: 0px;
+    text-shadow: 0 0 0px #084943;
+    text-rendering: geometricPrecision;
     @media (min-width: 800px) {
         font-size: 35px;
     }
 }
 
-%pralineSans-medium {
-    font-size: 20px;
-    font-family: PralineSans;
+// PralineSans - Normal text
+%sans-serif-large {
+    font-size: 18px;
+    font-family: calibri;
+    color: #084943;
     @media (min-width: 800px) {
-        font-size: 25px;
+        font-size: 28px;
     }
 }
 
-%pralineSans-small {
-    font-size: 18px;
-    font-family: PralineSans;
+%sans-serif-medium {
+    font-size: 13px;
+    font-family: calibri;
+    color: #084943;
     @media (min-width: 800px) {
-        font-size: 20px;
+        font-size: 18px;
+    }
+}
+
+%sans-serif-small {
+    font-size: 11px;
+    font-family: calibri;
+    color: #084943;
+    @media (min-width: 800px) {
+        font-size: 13px;
     }
 }
 

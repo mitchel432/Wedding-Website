@@ -1,6 +1,9 @@
+uuid: d243edd5-615e-4f4d-ab66-cbfd6b4ee29e
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: OjekiQuX9RbVQ2_8jOHBL94RgYLePqX7wpfNGgcQzrk
 id: html_year
 label: 'HTML Year'
 locked: true

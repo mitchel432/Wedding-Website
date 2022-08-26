@@ -2,7 +2,6 @@ h1.page-title {
     background-color: transparent;
 
     text-align: center;
-    font-family: Praline;
     position: relative;
     display: flex;
     align-items: center;
@@ -22,9 +21,9 @@ h1.page-title {
 
 .path-node:not(.path-frontpage) .block-system-main-block {
     width: auto;
-    background-color: #f5edea;
+    background-color: #f8f3ea;
     color: #757e60;
-    @extend %pralineSans-medium;
+    @extend %sans-serif-medium;
 
     article {
         padding: 40px 0;
@@ -32,7 +31,7 @@ h1.page-title {
     }
 
     strong {
-        @extend %praline-medium;
+        @extend %abigail-medium;
     }
 
     // Buttons
@@ -43,7 +42,7 @@ h1.page-title {
         border-radius: 10px;
         text-decoration: none;
         border: none;
-        @extend %praline-small;
+        @extend %abigail-small;
         @media (min-width: 800px) {
             padding: 5px 15px;
             border: 3px solid #757e60;
@@ -58,7 +57,7 @@ h1.page-title {
         &.webform-button--submit {
             width: 100%;
             padding: 15px;
-            @extend %pralineSans-large;
+            @extend %sans-serif-large;
         }
     }
 

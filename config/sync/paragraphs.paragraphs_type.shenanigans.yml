@@ -1,8 +1,9 @@
+uuid: 56db86c5-a746-4bc9-bb37-ddf06f814d6b
 langcode: en
 status: true
 dependencies: {  }
 id: shenanigans
-label: Shenanigans
+label: 'Planned Festivities'
 icon_uuid: null
 icon_default: null
 description: ''

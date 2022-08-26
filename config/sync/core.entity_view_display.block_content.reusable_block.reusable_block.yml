@@ -1,3 +1,4 @@
+uuid: 5d8ba775-d61e-4bd0-a758-0ac3d3266cca
 langcode: en
 status: true
 dependencies:
@@ -10,6 +11,8 @@ dependencies:
       - gutenberg
   module:
     - gutenberg
+_core:
+  default_config_hash: SBJIE09BTiRCwFOuLIhkS10jRR1xZ-xudPsdqThfqLc
 id: block_content.reusable_block.reusable_block
 targetEntityType: block_content
 bundle: reusable_block

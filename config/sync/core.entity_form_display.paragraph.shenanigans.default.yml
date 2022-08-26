@@ -1,8 +1,11 @@
+uuid: 5f87fa96-f4cf-471b-af04-272051d5dc0c
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.paragraph.shenanigans.field_date
+    - field.field.paragraph.shenanigans.field_festivities_attire
+    - field.field.paragraph.shenanigans.field_festivities_location
     - field.field.paragraph.shenanigans.field_shenanigans_body
     - field.field.paragraph.shenanigans.field_shenanigans_title
     - paragraphs.paragraphs_type.shenanigans
@@ -21,31 +24,47 @@ bundle: shenanigans
 mode: default
 content:
   field_date:
+    type: text_textfield
     weight: 0
+    region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: text_textfield
+  field_festivities_attire:
+    type: string_textfield
+    weight: 4
     region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_festivities_location:
+    type: string_textfield
+    weight: 3
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
   field_shenanigans_body:
+    type: text_textarea_with_summary
     weight: 2
+    region: content
     settings:
       rows: 9
       summary_rows: 3
       placeholder: ''
       show_summary: false
     third_party_settings: {  }
-    type: text_textarea_with_summary
-    region: content
   field_shenanigans_title:
+    type: string_textfield
     weight: 1
+    region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
-    region: content
 hidden:
   created: true
   status: true

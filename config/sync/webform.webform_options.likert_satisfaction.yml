@@ -1,9 +1,12 @@
+uuid: dfb02b33-d18b-430d-ab74-9b7ae47ee4ba
 langcode: en
 status: true
 dependencies:
   enforced:
     module:
       - webform
+_core:
+  default_config_hash: AKE2SNwCpl6Mu_cmbq9ZM2_cXxCikCVj1vcPE9oHWTs
 id: likert_satisfaction
 label: 'Likert: Satisfaction'
 category: Likert

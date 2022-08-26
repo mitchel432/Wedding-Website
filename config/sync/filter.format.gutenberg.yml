@@ -1,3 +1,4 @@
+uuid: a8aea122-660c-49b3-9687-f04d3dcefa83
 langcode: en
 status: true
 dependencies:
@@ -7,6 +8,8 @@ dependencies:
   module:
     - gutenberg
     - slick
+_core:
+  default_config_hash: iFvfKZXNYG-BpoPlJpBs6KLWM9FqhHbEvbBAntWemjA
 name: 'Gutenberg Blocks text format'
 format: gutenberg
 weight: 0

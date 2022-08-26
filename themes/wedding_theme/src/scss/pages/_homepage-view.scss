@@ -7,24 +7,27 @@
         background-color: transparent;;
     }
     .section {
-        background-color: #f5edea;
+        background-color: #f8f3ea;
     }
     .section-1 {
         // header height + half the height of content in section 1
         background-color: transparent;
         padding: calc(50vh - 245px) 0;
         text-align:  center;
-        font-family: Praline;
+        font-family: abigail;
+        letter-spacing: 0px;
         position: relative;
         @media (min-width: 800px) {
             padding: calc(50vh - 295px) 0;
         }
         .field--name-body {
             font-size: 25px;
-            font-weight: bold;
+            // font-weight: bold;
+            color: #084943;
+            text-shadow: 0 0 0px #084943;
             line-height: 1.4;
             padding: 30px;
-            text-shadow: 0 0 7px black;
+            // text-shadow: 0 0 7px black;
             @media (min-width: 480px) {
                 font-size: 30px;
             }
@@ -33,12 +36,13 @@
             }
 
             strong {
-                font-size: 45px;
+                font-weight: normal;
+                font-size: 65px;
                 @media (min-width: 480px) {
-                    font-size: 60px;
+                    font-size: 80px;
                 }
                 @media (min-width: 800px) {
-                    font-size: 95px;
+                    font-size: 115px;
                 }
             }
 
@@ -72,7 +76,7 @@
             border-radius: 10px;
             text-decoration: none;
             border: none;
-            @extend %praline-small;
+            @extend %abigail-small;
             text-align: center;
             @media (min-width: 800px) {
                 padding: 5px 15px;
@@ -90,7 +94,7 @@
         padding: 40px 10%;
         text-align: center;
         color: #757e60;
-        @extend %pralineSans-medium;
+        @extend %sans-serif-medium;
 
         @media (min-width: 1200px) {
             padding: 40px 20%;
@@ -101,14 +105,24 @@
             color: #757e60;
 
             strong {
-                @extend %praline-extra-large;
+                @extend %abigail-extra-large;
                 font-weight: normal;
+            }
+            p {
+                @extend %abigail-small;
+                font-weight: normal;
+                text-transform: uppercase;
             }
         }
     }
 
     .section-4 {
         padding: 60px;
+
+        .field--name-field-carousel- {
+            margin: 0 auto;
+            max-width: 1300px;;
+        }
 
         .slick-prev {
             left: -45px;
@@ -118,54 +132,86 @@
             color: #757e60;
             font-size: 45px;
         }
+        .field--name-field-media-image {
+            padding: 10px;
+            overflow: hidden;
+            .field__item {
+                display: flex;
+                justify-content: center;
+                overflow: hidden;
+            }
+        }
     }
 
     .section-5 {
         padding: 40px 5%;
         text-align: center;
-        color: #757e60;
-        @extend %pralineSans-medium;
+        @extend %sans-serif-medium;
 
         @media (min-width: 1200px) {
             padding: 40px 25%;
         }
 
         .field__label {
-            @extend %praline-extra-large;
+            @extend %abigail-extra-large;
             font-weight: normal;
             padding-bottom: 60px;
            
         }
 
-        .field__item {
+        .field__items > .field__item {
+            padding-bottom: 150px;
+            &:last-child {
+                padding-bottom: 0;
+            }
             .paragraph {
                 position: relative;
-    
-                &:after {
-                    content: '';
-                    display: block;
-                    width: 3px;
-                    height: 150px;
-                    background-color: #e3a85d;
-                    margin: 30px auto;
-                    
+                .field {
+                    padding: 0 25%;
+                }
+
+                .field--name-field-shenanigans-title {
+                    padding: 0;
                 }
 
                 .field--name-field-date {
                     text-transform: uppercase;
                     padding: 10px;
-                    @extend %pralineSans-medium;
+                    @extend %sans-serif-medium;
                 }
 
                 .field--name-field-shenanigans-title {
                     font-weight: normal;
                     padding: 10px;
-                    @extend %praline-large;
+                    @extend %abigail-large;
                 }
 
                 p {
                     padding: 0;
                     margin: 0;
+                }
+
+                .field field--name-field-shenanigans-body {
+                    @extend %sans-serif-medium;
+                }
+
+                .field--name-field-shenanigans-body:after {
+                    content: '';
+                    display: block;
+                    width: 30px;
+                    height: 30px;
+                    background: url('../../src/images/location-icon.png');
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    margin: 30px auto;
+                }
+
+                .field--name-field-festivities-location {
+                    @extend %abigail-small;
+                }
+
+                .field--name-field-festivities-attire {
+                    @extend %sans-serif-medium;
                 }
             }
 

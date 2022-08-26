@@ -1,0 +1,19 @@
+uuid: a04d4b09-ccac-4a13-9ef5-236e24d0fa4f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_festivities_attire
+    - paragraphs.paragraphs_type.shenanigans
+id: paragraph.shenanigans.field_festivities_attire
+field_name: field_festivities_attire
+entity_type: paragraph
+bundle: shenanigans
+label: 'Festivities Attire'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

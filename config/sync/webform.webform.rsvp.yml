@@ -1,3 +1,4 @@
+uuid: b2e9d1be-5be9-4cf4-b1b5-d694897063d8
 langcode: en
 status: open
 dependencies: {  }
@@ -44,10 +45,11 @@ elements: |-
     you_re_vaccinated_right_:
       '#type': managed_file
       '#title': 'You''re vaccinated, right?'
-      '#uri_scheme': public
-      '#file_preview': file
-      '#button': true
+      '#description_display': before
       '#required': true
+      '#uri_scheme': public
+      '#file_placeholder': 'please upload your vaccination card below'
+      '#file_preview': file
   container:
     '#type': webform_section
     '#title': 'fab, just a few more deets!'

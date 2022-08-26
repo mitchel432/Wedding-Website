@@ -1,3 +1,4 @@
+uuid: 059581eb-b4e3-4b89-ac29-76991ff07b4e
 langcode: en
 status: true
 dependencies:
@@ -7,6 +8,8 @@ dependencies:
     - gutenberg
     - media
     - slick
+_core:
+  default_config_hash: WNeK5FbcY8pXgEpbD_KgRzlF1-5PL3BJXwqaBctPTqw
 name: 'Full HTML'
 format: full_html
 weight: 2

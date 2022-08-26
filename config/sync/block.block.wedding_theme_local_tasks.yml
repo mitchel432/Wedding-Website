@@ -1,8 +1,11 @@
+uuid: 62fc9340-da07-4e5e-b140-6bdb352f41c9
 langcode: en
 status: true
 dependencies:
   theme:
     - wedding_theme
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
 id: wedding_theme_local_tasks
 theme: wedding_theme
 region: content

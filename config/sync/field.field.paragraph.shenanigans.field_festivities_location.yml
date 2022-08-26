@@ -1,0 +1,19 @@
+uuid: 68c3ca28-1930-4ee6-8c77-800a113fe86b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_festivities_location
+    - paragraphs.paragraphs_type.shenanigans
+id: paragraph.shenanigans.field_festivities_location
+field_name: field_festivities_location
+entity_type: paragraph
+bundle: shenanigans
+label: 'Festivities Location'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

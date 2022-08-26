@@ -20,11 +20,11 @@
         }
 
         h2 {
-            @extend %praline-large;
+            @extend %abigail-large;
         }
 
         label, legend {
-            @extend %pralineSans-large;
+            @extend %sans-serif-large;
         }
 
         // padding for mobile
@@ -40,7 +40,7 @@
         // For File description
         .webform-element-description {
             padding: 0 25px;
-            @extend %pralineSans-small;
+            @extend %sans-serif-small;
         }
 
         .description {
@@ -53,13 +53,12 @@
                 visibility: hidden;
             }
             input[type=radio]+label {
-                @extend %pralineSans-small;
+                @extend %sans-serif-small;
                 padding: 5px 15px;
                 background-color: white;
                 color: #757e60;
                 border-radius: 10px;
                 text-decoration: none;
-                font-family: Praline;
                 border: 3px solid #757e60;
             }
             input[type=radio]:checked+label {
@@ -73,7 +72,7 @@
 
         .fieldset-wrapper {
             padding: 0 25px;
-            @extend %pralineSans-small;
+            @extend %sans-serif-small;
         }
 
         #edit-you-re-vaccinated-right- {
@@ -89,6 +88,6 @@
     .webform-button--submit {
         width: 100%;
         padding: 15px;
-        @extend %pralineSans-large;
+        @extend %sans-serif-large;
     }
 }

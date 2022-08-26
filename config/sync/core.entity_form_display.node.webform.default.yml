@@ -1,3 +1,4 @@
+uuid: 95264ee9-24b7-4d46-bb65-4bedfac12e96
 langcode: en
 status: true
 dependencies:
@@ -16,6 +17,8 @@ third_party_settings:
     id: layout_onecol
     settings:
       label: ''
+_core:
+  default_config_hash: A3evv2pt6d-bKCPcgjXA5VGTemXWOxG3lSXvWiRWcck
 id: node.webform.default
 targetEntityType: node
 bundle: webform

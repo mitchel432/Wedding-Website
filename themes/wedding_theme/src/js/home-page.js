@@ -20,26 +20,14 @@
                 console.log('inside')
                 carasoul.slick({
                     infinite: true,
-                    speed: 1000,
-                    autoplay: true,
-                    autoplaySpeed: 2000,
+                    arrows: true,
                     slidesToShow: 4,
-                    slidesToScroll: 4,
-                    centerMode: true,
-                    variableWidth: true,
                     responsive: [
-                        {
-                            breakpoint: 1420,
-                            settings: {
-                                slidesToShow: 3,
-                                slidesToScroll: 3,
-                            }
-                        },
                         {
                             breakpoint: 1080,
                             settings: {
-                                slidesToShow: 2,
-                                slidesToScroll: 2
+                                slidesToShow: 3,
+                                slidesToScroll: 3
                             }
                         },
                         {

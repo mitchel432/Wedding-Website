@@ -1,3 +1,4 @@
+uuid: fa208d2c-a705-48c9-91c9-bd87656f7e4e
 langcode: en
 status: true
 dependencies: {  }
@@ -9,6 +10,6 @@ effects:
     id: image_scale_and_crop
     weight: 1
     data:
-      width: 480
-      height: 480
+      width: 325
+      height: 500
       anchor: center-center
