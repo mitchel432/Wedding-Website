@@ -86,7 +86,7 @@
             }
 
             a {
-                color: #757e60;
+                color: #084943;
                 text-decoration: none;
                 display: flex;
                 flex-direction: column;
@@ -109,10 +109,10 @@
                     width: auto;
                     padding: 5px 10px;
                     border-radius: 10px;
-                    border: 3px solid #757e60;
+                    border: 3px solid #084943;
                 }
                 &:hover .hotel-link-text {
-                    background-color: #757e60;
+                    background-color: #084943;
                     color: white;
                 }
             }
@@ -174,7 +174,7 @@
             align-items: center;
             justify-content: space-between;
             padding: 40px;
-            color: #757e60;
+            color: #084943;
             text-decoration: none;
             @media (min-width: 800px) {
                 height: 160px;

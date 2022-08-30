@@ -8,6 +8,8 @@ global-styling:
   fonts:
     src/fonts/abigail-v4.ttf: {}
     src/fonts/abigail-v4.woff: {}
+    src/fonts/Acumin-BdPro.otf: {}
+    src/fonts/Acumin-RPro.otf: {}
   dependencies:
     - core/drupal
     - core/jquery
