@@ -506,7 +506,8 @@ h1.page-title {
       text-decoration: none;
       border: 1px solid #084943;
       display: flex;
-      min-height: 100%; }
+      min-height: 100%;
+      align-items: center; }
     .webform-submission-form .webform-section .webform-type-radios .fieldset-wrapper .form-item:first-child input[type=radio] + label {
       border-radius: 5px 0 0 5px; }
   .webform-submission-form .webform-section .webform-type-radios .fieldset-wrapper input[type=radio]:checked + label {

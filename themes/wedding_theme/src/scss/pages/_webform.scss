@@ -101,6 +101,7 @@
                     border: 1px solid #084943;
                     display: flex;
                     min-height: 100%;
+                    align-items: center;
                 }
 
                 &:first-child input[type=radio]+label {
