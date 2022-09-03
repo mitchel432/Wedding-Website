@@ -1,5 +1,6 @@
 .path-node:not(.path-frontpage) .block-system-main-block  article.node--type-our-story {
-    @extend %sidebar-small;
+    @extend %sidebar-medium;
+    @extend %sans-serif-medium;
 }
 
 // adjustments to gutenburg images

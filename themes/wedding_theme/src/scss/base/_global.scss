@@ -13,7 +13,7 @@ body.wedding-theme {
 .section-1:before, h1.page-title:before {
     content: '';
     position: absolute;
-    top: -165px;
+    top: -202px;
     right: 0;
     left: 0;
     bottom: 0;
@@ -21,6 +21,7 @@ body.wedding-theme {
     background-position: bottom;
     z-index: -1;
     background-size: cover;
+    margin: 0;
 }
 
 #block-wedding-theme-local-tasks {

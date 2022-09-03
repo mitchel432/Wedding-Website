@@ -10,6 +10,8 @@
         
         strong {
             @extend %abigail-large;
+            font-weight: normal;
+            margin: 15px;
         }
         
     }
@@ -76,7 +78,7 @@
         }
 
         > .field__item {
-            width: 33%;
+            width: 50%;
             text-align: center;
             // @media (min-width: 600px) 
 
@@ -108,34 +110,36 @@
                     @extend %sans-serif-small;
                     width: auto;
                     padding: 5px 10px;
-                    border-radius: 10px;
-                    border: 3px solid #084943;
-                }
-                &:hover .hotel-link-text {
+                    border-radius: 5px;
+                    border: 1px solid #084943;
                     background-color: #084943;
                     color: white;
                 }
+                &:hover .hotel-link-text {
+                    color: #084943;
+                    background-color: white;
+                }
             }
  
-            &:first-child {
-                width: 80%;
-                margin: 0 10%;
-                @media (min-width: 600px) {
-                    width: 50%;
-                    margin: 0 25%;
-                }
-                a {
-                    .hotel-title {
-                        @extend %abigail-large;
-                        font-weight: bold;
-                        padding-bottom: 30px;
-                    }
-                    .hotel-link-text {
-                        @extend %sans-serif-medium;
-                        padding: 10px 20px;
-                    }
-                }
-            }   
+            // &:first-child {
+            //     width: 80%;
+            //     margin: 0 10%;
+            //     @media (min-width: 600px) {
+            //         width: 50%;
+            //         margin: 0 25%;
+            //     }
+            //     a {
+            //         .hotel-title {
+            //             @extend %abigail-large;
+            //             font-weight: bold;
+            //             padding-bottom: 30px;
+            //         }
+            //         .hotel-link-text {
+            //             @extend %sans-serif-medium;
+            //             padding: 10px 20px;
+            //         }
+            //     }
+            // }   
             
             .heart-image {
                 display: flex;
@@ -197,5 +201,20 @@
                 right: 0;
             }
         }
+    }
+
+    .bottom-teaser-text {
+        text-align: center;
+        @extend %sans-serif-large;
+        color: gray;
+        margin: 60px 10% 30px 10%;
+        @media (min-width: 800px) {
+            margin: 80px 15%  30px 15%;
+        }
+        
+        @media (min-width: 800px) {
+            margin: 80px 20% 30px 20%;
+        }
+
     }
 }

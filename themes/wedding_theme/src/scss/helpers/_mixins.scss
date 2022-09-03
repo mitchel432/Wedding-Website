@@ -1,12 +1,17 @@
 // Praline - Title, large text
 %abigail-extra-large {
-    font-size: 75px;
+    font-size: 55px;
     font-family: abigail, sans-serif;
     color: #084943;
     letter-spacing: 0px;
     text-shadow: 0 0 0px #084943;
-    text-rendering: geometricPrecision;
+    @media (min-width: 600px) {
+        font-size: 60px;
+    }
     @media (min-width: 800px) {
+        font-size: 80px;
+    }
+    @media (min-width: 1200px) {
         font-size: 100px;
     }
 }
@@ -17,8 +22,13 @@
     color: #084943;
     letter-spacing: 0px;
     text-shadow: 0 0 0px #084943;
-    text-rendering: geometricPrecision;
+    @media (min-width: 600px) {
+        font-size: 70px;
+    }
     @media (min-width: 800px) {
+        font-size: 70px;
+    }
+    @media (min-width: 1200px) {
         font-size: 70px;
     }
 }
@@ -29,8 +39,13 @@
     color: #084943;
     letter-spacing: 0px;
     text-shadow: 0 0 0px #084943;
-    text-rendering: geometricPrecision;
+    @media (min-width: 600px) {
+        font-size: 55px;
+    }
     @media (min-width: 800px) {
+        font-size: 55px;
+    }
+    @media (min-width: 1200px) {
         font-size: 55px;
     }
 }
@@ -41,8 +56,13 @@
     color: #084943;
     letter-spacing: 0px;
     text-shadow: 0 0 0px #084943;
-    text-rendering: geometricPrecision;
+    @media (min-width: 600px) {
+        font-size: 35px;
+    }
     @media (min-width: 800px) {
+        font-size: 35px;
+    }
+    @media (min-width: 1200px) {
         font-size: 35px;
     }
 }
@@ -53,8 +73,13 @@
     color: #084943;
     letter-spacing: 0px;
     text-shadow: 0 0 0px #084943;
-    text-rendering: geometricPrecision;
+    @media (min-width: 600px) {
+        font-size: 25px;
+    }
     @media (min-width: 800px) {
+        font-size: 25px;
+    }
+    @media (min-width: 1200px) {
         font-size: 25px;
     }
 }
@@ -70,7 +95,7 @@
 }
 
 %sans-serif-medium {
-    font-size: 13px;
+    font-size: 15px;
     font-family: calibri;
     color: #084943;
     @media (min-width: 800px) {
@@ -79,7 +104,7 @@
 }
 
 %sans-serif-small {
-    font-size: 11px;
+    font-size: 13px;
     font-family: calibri;
     color: #084943;
     @media (min-width: 800px) {
